@@ -1,0 +1,13 @@
+{
+  "name": "@backlight-dev/key-purchase-v3ega.blank-l262crr9",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
