@@ -1,0 +1,312 @@
+{
+  "color": {
+    "base": {
+      "gray": {
+        "light": {
+          "value": "#CCCCCC",
+          "filePath": "tokens\\colors\\colors.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#CCCCCC"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "light"
+          },
+          "path": {
+            "0": "color",
+            "1": "base",
+            "2": "gray",
+            "3": "light"
+          }
+        },
+        "medium": {
+          "value": "#999999",
+          "filePath": "tokens\\colors\\colors.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#999999"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "medium"
+          },
+          "path": {
+            "0": "color",
+            "1": "base",
+            "2": "gray",
+            "3": "medium"
+          }
+        },
+        "dark": {
+          "value": "#111111",
+          "filePath": "tokens\\colors\\colors.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#111111"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "dark"
+          },
+          "path": {
+            "0": "color",
+            "1": "base",
+            "2": "gray",
+            "3": "dark"
+          }
+        }
+      },
+      "primary": {
+        "light": {
+          "value": "#db0f16",
+          "filePath": "color/doc/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#db0f16"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "primary",
+            "subitem": "light"
+          },
+          "path": {
+            "0": "color",
+            "1": "base",
+            "2": "primary",
+            "3": "light"
+          }
+        },
+        "medium": {
+          "value": "#db0f16",
+          "filePath": "color/doc/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#db0f16"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "primary",
+            "subitem": "medium"
+          },
+          "path": {
+            "0": "color",
+            "1": "base",
+            "2": "primary",
+            "3": "medium"
+          }
+        },
+        "dark": {
+          "value": "#a10000",
+          "filePath": "color/doc/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#a10000"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "primary",
+            "subitem": "dark"
+          },
+          "path": {
+            "0": "color",
+            "1": "base",
+            "2": "primary",
+            "3": "dark"
+          }
+        }
+      },
+      "red": {
+        "value": "#FF0000",
+        "filePath": "tokens\\colors\\colors.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#FF0000"
+        },
+        "attributes": {
+          "category": "color",
+          "type": "base",
+          "item": "red"
+        },
+        "path": {
+          "0": "color",
+          "1": "base",
+          "2": "red"
+        }
+      },
+      "green": {
+        "value": "#00FF00",
+        "filePath": "tokens\\colors\\colors.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#00FF00"
+        },
+        "attributes": {
+          "category": "color",
+          "type": "base",
+          "item": "green"
+        },
+        "path": {
+          "0": "color",
+          "1": "base",
+          "2": "green"
+        }
+      }
+    }
+  },
+  "radii": {
+    "none": {
+      "value": "0",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "0"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "none"
+      },
+      "path": {
+        "0": "radii",
+        "1": "none"
+      }
+    },
+    "sm": {
+      "value": "0.125rem",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "0.125rem"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "sm"
+      },
+      "path": {
+        "0": "radii",
+        "1": "sm"
+      }
+    },
+    "base": {
+      "value": "0.25rem",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "0.25rem"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "base"
+      },
+      "path": {
+        "0": "radii",
+        "1": "base"
+      }
+    },
+    "md": {
+      "value": "0.375rem",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "0.375rem"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "md"
+      },
+      "path": {
+        "0": "radii",
+        "1": "md"
+      }
+    },
+    "lg": {
+      "value": "0.5rem",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "0.5rem"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "lg"
+      },
+      "path": {
+        "0": "radii",
+        "1": "lg"
+      }
+    },
+    "xl": {
+      "value": "0.75rem",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "0.75rem"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "xl"
+      },
+      "path": {
+        "0": "radii",
+        "1": "xl"
+      }
+    },
+    "xl2": {
+      "value": "1rem",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "1rem"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "xl2"
+      },
+      "path": {
+        "0": "radii",
+        "1": "xl2"
+      }
+    },
+    "xl3": {
+      "value": "1.5rem",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "1.5rem"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "xl3"
+      },
+      "path": {
+        "0": "radii",
+        "1": "xl3"
+      }
+    },
+    "full": {
+      "value": "9999px",
+      "filePath": "tokens\\radii\\radii.tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "9999px"
+      },
+      "attributes": {
+        "category": "radii",
+        "type": "full"
+      },
+      "path": {
+        "0": "radii",
+        "1": "full"
+      }
+    }
+  }
+}
