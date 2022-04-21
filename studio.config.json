@@ -2,18 +2,9 @@
   "packages": {
     "dir": "",
     "menu": [
-      [
-        "TOKENS",
-        []
-      ],
-      [
-        "COMPONENTS",
-        []
-      ],
-      [
-        "INFRASTRUCTURE",
-        []
-      ]
+      ["TOKENS", ["color", "radii", "color", "radii"]],
+      ["COMPONENTS", []],
+      ["INFRASTRUCTURE", []]
     ]
   }
 }

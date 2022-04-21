@@ -1,0 +1,24 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 20 Apr 2022 09:56:51 GMT
+ */
+
+:root {
+  --sd-color-base-gray-light: #cccccc;
+  --sd-color-base-gray-medium: #999999;
+  --sd-color-base-gray-dark: #111111;
+  --sd-color-base-primary-light: #db0f16;
+  --sd-color-base-primary-medium: #db0f16;
+  --sd-color-base-primary-dark: #a10000;
+  --sd-color-base-red: #ff0000;
+  --sd-color-base-green: #00ff00;
+  --sd-radii-none: 0;
+  --sd-radii-sm: 0.125rem;
+  --sd-radii-base: 0.25rem;
+  --sd-radii-md: 0.375rem;
+  --sd-radii-lg: 0.5rem;
+  --sd-radii-xl: 0.75rem;
+  --sd-radii-xl2: 1rem;
+  --sd-radii-xl3: 1.5rem;
+  --sd-radii-full: 9999px;
+}
