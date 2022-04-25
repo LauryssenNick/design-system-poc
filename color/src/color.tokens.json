@@ -1,18 +1,20 @@
 {
-  "color": {
-    "tokenset": "global",
-    "primary": {
-      "light": {
-        "type": "color",
-        "value": "#db0f16"
-      },
-      "medium": {
-        "type": "color",
-        "value": "#db0f16"
-      },
-      "dark": {
-        "type": "color",
-        "value": "#a10000"
+  "global": {
+    "color": {
+      "tokenset": "global",
+      "primary": {
+        "light": {
+          "type": "color",
+          "value": "#db0f16"
+        },
+        "medium": {
+          "type": "color",
+          "value": "#db0f16"
+        },
+        "dark": {
+          "type": "color",
+          "value": "#a10000"
+        }
       }
     }
   }
