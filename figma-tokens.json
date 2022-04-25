@@ -2,10 +2,12 @@
   "color": {
     "primary": {
       "light": {
+        "type": "color",
         "value": "#db0f16",
         "filePath": "color/src/color.tokens.json",
         "isSource": true,
         "original": {
+          "type": "color",
           "value": "#db0f16"
         },
         "attributes": {
@@ -20,10 +22,12 @@
         }
       },
       "medium": {
+        "type": "color",
         "value": "#db0f16",
         "filePath": "color/src/color.tokens.json",
         "isSource": true,
         "original": {
+          "type": "color",
           "value": "#db0f16"
         },
         "attributes": {
@@ -38,10 +42,12 @@
         }
       },
       "dark": {
+        "type": "color",
         "value": "#a10000",
         "filePath": "color/src/color.tokens.json",
         "isSource": true,
         "original": {
+          "type": "color",
           "value": "#a10000"
         },
         "attributes": {
