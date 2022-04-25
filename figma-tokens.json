@@ -4,7 +4,7 @@
       "gray": {
         "light": {
           "value": "#CCCCCC",
-          "filePath": "tokens\\colors\\colors.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#CCCCCC"
@@ -24,7 +24,7 @@
         },
         "medium": {
           "value": "#999999",
-          "filePath": "tokens\\colors\\colors.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#999999"
@@ -44,7 +44,7 @@
         },
         "dark": {
           "value": "#111111",
-          "filePath": "tokens\\colors\\colors.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#111111"
@@ -66,7 +66,7 @@
       "primary": {
         "light": {
           "value": "#db0f16",
-          "filePath": "color/doc/color.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#db0f16"
@@ -86,7 +86,7 @@
         },
         "medium": {
           "value": "#db0f16",
-          "filePath": "color/doc/color.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#db0f16"
@@ -106,7 +106,7 @@
         },
         "dark": {
           "value": "#a10000",
-          "filePath": "color/doc/color.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#a10000"
@@ -124,49 +124,13 @@
             "3": "dark"
           }
         }
-      },
-      "red": {
-        "value": "#FF0000",
-        "filePath": "tokens\\colors\\colors.tokens.json",
-        "isSource": true,
-        "original": {
-          "value": "#FF0000"
-        },
-        "attributes": {
-          "category": "color",
-          "type": "base",
-          "item": "red"
-        },
-        "path": {
-          "0": "color",
-          "1": "base",
-          "2": "red"
-        }
-      },
-      "green": {
-        "value": "#00FF00",
-        "filePath": "tokens\\colors\\colors.tokens.json",
-        "isSource": true,
-        "original": {
-          "value": "#00FF00"
-        },
-        "attributes": {
-          "category": "color",
-          "type": "base",
-          "item": "green"
-        },
-        "path": {
-          "0": "color",
-          "1": "base",
-          "2": "green"
-        }
       }
     }
   },
   "radii": {
     "none": {
       "value": "0",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "0"
@@ -182,7 +146,7 @@
     },
     "sm": {
       "value": "0.125rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "0.125rem"
@@ -198,7 +162,7 @@
     },
     "base": {
       "value": "0.25rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "0.25rem"
@@ -214,7 +178,7 @@
     },
     "md": {
       "value": "0.375rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "0.375rem"
@@ -230,7 +194,7 @@
     },
     "lg": {
       "value": "0.5rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "0.5rem"
@@ -246,7 +210,7 @@
     },
     "xl": {
       "value": "0.75rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "0.75rem"
@@ -262,7 +226,7 @@
     },
     "xl2": {
       "value": "1rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "1rem"
@@ -278,7 +242,7 @@
     },
     "xl3": {
       "value": "1.5rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "1.5rem"
@@ -294,7 +258,7 @@
     },
     "full": {
       "value": "9999px",
-      "filePath": "tokens\\radii\\radii.tokens.json",
+      "filePath": "radii/src/radii.tokens.json",
       "isSource": true,
       "original": {
         "value": "9999px"
