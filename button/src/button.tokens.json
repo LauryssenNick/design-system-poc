@@ -3,7 +3,7 @@
     "primary": {
       "background": {
         "type": "color",
-        "value": "{global.color.primary.medium}"
+        "value": "{color.primary.medium}"
       },
       "padding": {
         "horizontal": {
@@ -24,12 +24,12 @@
       "hover": {
         "background": {
           "type": "color",
-          "value": "{global.color.primary.light}"
+          "value": "{color.primary.light}"
         },
         "outline": {
           "color": {
             "type": "color",
-            "value": "{global.color.primary.dark}"
+            "value": "{color.primary.dark}"
           },
           "offset": {
             "type": "spacing",
@@ -45,7 +45,7 @@
         "shadow": {
           "color": {
             "type": "color",
-            "value": "{global.color.primary.dark}"
+            "value": "{color.primary.dark}"
           },
           "width": {
             "type": "sizing",
@@ -56,11 +56,11 @@
       "disabled": {
         "background": {
           "type": "color",
-          "value": "{global.color.primary.dark}"
+          "value": "{color.primary.dark}"
         },
         "color": {
           "type": "color",
-          "value": "{global.color.primary.light}"
+          "value": "{color.primary.light}"
         }
       }
     }

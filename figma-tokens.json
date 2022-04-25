@@ -3,12 +3,12 @@
     "primary": {
       "background": {
         "type": "color",
-        "value": "{global.color.primary.medium}",
+        "value": "{color.primary.medium}",
         "filePath": "button/src/button.tokens.json",
         "isSource": true,
         "original": {
           "type": "color",
-          "value": "{global.color.primary.medium}"
+          "value": "{color.primary.medium}"
         },
         "attributes": {
           "category": "button",
@@ -94,12 +94,12 @@
       "hover": {
         "background": {
           "type": "color",
-          "value": "{global.color.primary.light}",
+          "value": "{color.primary.light}",
           "filePath": "button/src/button.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.color.primary.light}"
+            "value": "{color.primary.light}"
           },
           "attributes": {
             "category": "button",
@@ -117,12 +117,12 @@
         "outline": {
           "color": {
             "type": "color",
-            "value": "{global.color.primary.dark}",
+            "value": "{color.primary.dark}",
             "filePath": "button/src/button.tokens.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{global.color.primary.dark}"
+              "value": "{color.primary.dark}"
             },
             "attributes": {
               "category": "button",
@@ -193,12 +193,12 @@
         "shadow": {
           "color": {
             "type": "color",
-            "value": "{global.color.primary.dark}",
+            "value": "{color.primary.dark}",
             "filePath": "button/src/button.tokens.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{global.color.primary.dark}"
+              "value": "{color.primary.dark}"
             },
             "attributes": {
               "category": "button",
@@ -244,12 +244,12 @@
       "disabled": {
         "background": {
           "type": "color",
-          "value": "{global.color.primary.dark}",
+          "value": "{color.primary.dark}",
           "filePath": "button/src/button.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.color.primary.dark}"
+            "value": "{color.primary.dark}"
           },
           "attributes": {
             "category": "button",
@@ -266,12 +266,12 @@
         },
         "color": {
           "type": "color",
-          "value": "{global.color.primary.light}",
+          "value": "{color.primary.light}",
           "filePath": "button/src/button.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{global.color.primary.light}"
+            "value": "{color.primary.light}"
           },
           "attributes": {
             "category": "button",
@@ -290,77 +290,6 @@
     }
   },
   "global": {
-    "color": {
-      "tokenset": "global",
-      "primary": {
-        "light": {
-          "type": "color",
-          "value": "#db0f16",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#db0f16"
-          },
-          "attributes": {
-            "category": "global",
-            "type": "color",
-            "item": "primary",
-            "subitem": "light"
-          },
-          "path": {
-            "0": "global",
-            "1": "color",
-            "2": "primary",
-            "3": "light"
-          }
-        },
-        "medium": {
-          "type": "color",
-          "value": "#db0f16",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#db0f16"
-          },
-          "attributes": {
-            "category": "global",
-            "type": "color",
-            "item": "primary",
-            "subitem": "medium"
-          },
-          "path": {
-            "0": "global",
-            "1": "color",
-            "2": "primary",
-            "3": "medium"
-          }
-        },
-        "dark": {
-          "type": "color",
-          "value": "#a10000",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#a10000"
-          },
-          "attributes": {
-            "category": "global",
-            "type": "color",
-            "item": "primary",
-            "subitem": "dark"
-          },
-          "path": {
-            "0": "global",
-            "1": "color",
-            "2": "primary",
-            "3": "dark"
-          }
-        }
-      }
-    },
     "spacing": {
       "s0": {
         "type": "spacing",
@@ -1040,6 +969,70 @@
           "0": "global",
           "1": "spacing",
           "2": "s96"
+        }
+      }
+    },
+    "color": {
+      "primary": {
+        "light": {
+          "type": "color",
+          "value": "#db0f16",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#db0f16"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "primary",
+            "item": "light"
+          },
+          "path": {
+            "0": "color",
+            "1": "primary",
+            "2": "light"
+          }
+        },
+        "medium": {
+          "type": "color",
+          "value": "#db0f16",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#db0f16"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "primary",
+            "item": "medium"
+          },
+          "path": {
+            "0": "color",
+            "1": "primary",
+            "2": "medium"
+          }
+        },
+        "dark": {
+          "type": "color",
+          "value": "#a10000",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#a10000"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "primary",
+            "item": "dark"
+          },
+          "path": {
+            "0": "color",
+            "1": "primary",
+            "2": "dark"
+          }
         }
       }
     }
