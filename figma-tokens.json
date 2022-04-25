@@ -4,7 +4,7 @@
       "gray": {
         "light": {
           "value": "#CCCCCC",
-          "filePath": "color/src/color.tokens.json",
+          "filePath": "color/doc/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#CCCCCC"
@@ -24,7 +24,7 @@
         },
         "medium": {
           "value": "#999999",
-          "filePath": "color/src/color.tokens.json",
+          "filePath": "color/doc/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#999999"
@@ -44,7 +44,7 @@
         },
         "dark": {
           "value": "#111111",
-          "filePath": "color/src/color.tokens.json",
+          "filePath": "color/doc/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#111111"
@@ -66,7 +66,7 @@
       "primary": {
         "light": {
           "value": "#db0f16",
-          "filePath": "color/src/color.tokens.json",
+          "filePath": "color/doc/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#db0f16"
@@ -86,7 +86,7 @@
         },
         "medium": {
           "value": "#db0f16",
-          "filePath": "color/src/color.tokens.json",
+          "filePath": "color/doc/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#db0f16"
@@ -106,7 +106,7 @@
         },
         "dark": {
           "value": "#a10000",
-          "filePath": "color/src/color.tokens.json",
+          "filePath": "color/doc/color.tokens.json",
           "isSource": true,
           "original": {
             "value": "#a10000"
@@ -123,6 +123,62 @@
             "2": "primary",
             "3": "dark"
           }
+        }
+      }
+    },
+    "primary": {
+      "light": {
+        "value": "#db0f16",
+        "filePath": "color/src/color.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#db0f16"
+        },
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "light"
+        },
+        "path": {
+          "0": "color",
+          "1": "primary",
+          "2": "light"
+        }
+      },
+      "medium": {
+        "value": "#db0f16",
+        "filePath": "color/src/color.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#db0f16"
+        },
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "medium"
+        },
+        "path": {
+          "0": "color",
+          "1": "primary",
+          "2": "medium"
+        }
+      },
+      "dark": {
+        "value": "#a10000",
+        "filePath": "color/src/color.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#a10000"
+        },
+        "attributes": {
+          "category": "color",
+          "type": "primary",
+          "item": "dark"
+        },
+        "path": {
+          "0": "color",
+          "1": "primary",
+          "2": "dark"
         }
       }
     }

@@ -1,27 +1,14 @@
 {
   "color": {
-    "base": {
-      "gray": {
-        "light": {
-          "value": "#CCCCCC"
-        },
-        "medium": {
-          "value": "#999999"
-        },
-        "dark": {
-          "value": "#111111"
-        }
+    "primary": {
+      "light": {
+        "value": "#db0f16"
       },
-      "primary": {
-        "light": {
-          "value": "#db0f16"
-        },
-        "medium": {
-          "value": "#db0f16"
-        },
-        "dark": {
-          "value": "#a10000"
-        }
+      "medium": {
+        "value": "#db0f16"
+      },
+      "dark": {
+        "value": "#a10000"
       }
     }
   }
