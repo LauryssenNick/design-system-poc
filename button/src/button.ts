@@ -6,7 +6,7 @@ import { classMap } from 'lit/directives/class-map.js';
 export default class Button extends LitElement {
   static styles = css`
     :host {
-      background-color: var(--color-primary-main);
+      background-color: var(--ktn-color-primary-medium);
     }
 
     .button {
