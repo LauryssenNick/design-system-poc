@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 25 Apr 2022 11:58:44 GMT
+ * Generated on Mon, 25 Apr 2022 14:41:00 GMT
  */
 
 :root {
@@ -16,4 +16,38 @@
   --sd-radii-xl2: 1rem;
   --sd-radii-xl3: 1.5rem;
   --sd-radii-full: 9999px;
+  --sd-spacing-s0: 0px;
+  --sd-spacing-s0-5: 0.125rem;
+  --sd-spacing-s1: 0.25rem;
+  --sd-spacing-s1-5: 0.375rem;
+  --sd-spacing-s2: 0.5rem;
+  --sd-spacing-s2-5: 0.625rem;
+  --sd-spacing-s3: 0.75rem;
+  --sd-spacing-s3-5: 0.875rem;
+  --sd-spacing-s4: 1rem;
+  --sd-spacing-s5: 1.25rem;
+  --sd-spacing-s6: 1.5rem;
+  --sd-spacing-s7: 1.75rem;
+  --sd-spacing-s8: 2rem;
+  --sd-spacing-s9: 2.25rem;
+  --sd-spacing-s10: 2.5rem;
+  --sd-spacing-s11: 2.75rem;
+  --sd-spacing-s12: 3rem;
+  --sd-spacing-s14: 3.5rem;
+  --sd-spacing-s16: 4rem;
+  --sd-spacing-s20: 5rem;
+  --sd-spacing-s24: 6rem;
+  --sd-spacing-s28: 7rem;
+  --sd-spacing-s32: 8rem;
+  --sd-spacing-s36: 9rem;
+  --sd-spacing-s40: 10rem;
+  --sd-spacing-s44: 11rem;
+  --sd-spacing-s48: 12rem;
+  --sd-spacing-s52: 13rem;
+  --sd-spacing-s56: 14rem;
+  --sd-spacing-s60: 15rem;
+  --sd-spacing-s64: 16rem;
+  --sd-spacing-s72: 18rem;
+  --sd-spacing-s80: 20rem;
+  --sd-spacing-s96: 24rem;
 }

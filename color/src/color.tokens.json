@@ -1,5 +1,6 @@
 {
   "color": {
+    "tokenSet": "global",
     "primary": {
       "light": {
         "type": "color",
