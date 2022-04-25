@@ -28,7 +28,7 @@ export default {
     },
     css: {
       transformGroup: 'css',
-      prefix: 'sd',
+      prefix: 'ktn',
       buildPath: 'tokens/',
       files: [
         {
