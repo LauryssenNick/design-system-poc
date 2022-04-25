@@ -19,7 +19,6 @@ export default {
     // and exports it to a file /figma-tokens.json
     json: {
       transformGroup: 'js',
-      buildPath: '/',
       files: [
         {
           destination: 'figma-tokens.json',
@@ -29,7 +28,7 @@ export default {
     },
     css: {
       transformGroup: 'css',
-      prefix: 'sd',
+      prefix: 'ktn',
       buildPath: 'tokens/',
       files: [
         {

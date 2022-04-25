@@ -1,329 +1,682 @@
 {
-  "color": {
-    "base": {
-      "gray": {
-        "light": {
-          "value": "#CCCCCC",
-          "filePath": "tokens\\colors\\colors.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "#CCCCCC"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "base",
-            "item": "gray",
-            "subitem": "light"
-          },
-          "path": {
-            "0": "color",
-            "1": "base",
-            "2": "gray",
-            "3": "light"
-          },
-          "type": "other"
-        },
-        "medium": {
-          "value": "#999999",
-          "filePath": "tokens\\colors\\colors.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "#999999"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "base",
-            "item": "gray",
-            "subitem": "medium"
-          },
-          "path": {
-            "0": "color",
-            "1": "base",
-            "2": "gray",
-            "3": "medium"
-          },
-          "type": "other"
-        },
-        "dark": {
-          "value": "#111111",
-          "filePath": "tokens\\colors\\colors.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "#111111"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "base",
-            "item": "gray",
-            "subitem": "dark"
-          },
-          "path": {
-            "0": "color",
-            "1": "base",
-            "2": "gray",
-            "3": "dark"
-          },
-          "type": "other"
-        }
-      },
+  "global": {
+    "color": {
       "primary": {
         "light": {
+          "type": "color",
           "value": "#db0f16",
-          "filePath": "color/doc/color.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
+            "type": "color",
             "value": "#db0f16"
           },
           "attributes": {
             "category": "color",
-            "type": "base",
-            "item": "primary",
-            "subitem": "light"
+            "type": "primary",
+            "item": "light"
           },
           "path": {
             "0": "color",
-            "1": "base",
-            "2": "primary",
-            "3": "light"
-          },
-          "type": "other"
+            "1": "primary",
+            "2": "light"
+          }
         },
         "medium": {
+          "type": "color",
           "value": "#db0f16",
-          "filePath": "color/doc/color.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
+            "type": "color",
             "value": "#db0f16"
           },
           "attributes": {
             "category": "color",
-            "type": "base",
-            "item": "primary",
-            "subitem": "medium"
+            "type": "primary",
+            "item": "medium"
           },
           "path": {
             "0": "color",
-            "1": "base",
-            "2": "primary",
-            "3": "medium"
-          },
-          "type": "other"
+            "1": "primary",
+            "2": "medium"
+          }
         },
         "dark": {
+          "type": "color",
           "value": "#a10000",
-          "filePath": "color/doc/color.tokens.json",
+          "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
+            "type": "color",
             "value": "#a10000"
           },
           "attributes": {
             "category": "color",
-            "type": "base",
-            "item": "primary",
-            "subitem": "dark"
+            "type": "primary",
+            "item": "dark"
           },
           "path": {
             "0": "color",
-            "1": "base",
-            "2": "primary",
-            "3": "dark"
-          },
-          "type": "other"
+            "1": "primary",
+            "2": "dark"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "s0": {
+        "type": "spacing",
+        "value": "0px",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "0px"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s0"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s0"
         }
       },
-      "red": {
-        "value": "#FF0000",
-        "filePath": "tokens\\colors\\colors.tokens.json",
+      "s0_5": {
+        "type": "spacing",
+        "value": "0.125rem",
+        "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
-          "value": "#FF0000"
+          "type": "spacing",
+          "value": "0.125rem"
         },
         "attributes": {
-          "category": "color",
-          "type": "base",
-          "item": "red"
+          "category": "spacing",
+          "type": "s0_5"
         },
         "path": {
-          "0": "color",
-          "1": "base",
-          "2": "red"
-        },
-        "type": "other"
+          "0": "spacing",
+          "1": "s0_5"
+        }
       },
-      "green": {
-        "value": "#00FF00",
-        "filePath": "tokens\\colors\\colors.tokens.json",
+      "s1": {
+        "type": "spacing",
+        "value": "0.25rem",
+        "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
-          "value": "#00FF00"
+          "type": "spacing",
+          "value": "0.25rem"
         },
         "attributes": {
-          "category": "color",
-          "type": "base",
-          "item": "green"
+          "category": "spacing",
+          "type": "s1"
         },
         "path": {
-          "0": "color",
-          "1": "base",
-          "2": "green"
+          "0": "spacing",
+          "1": "s1"
+        }
+      },
+      "s1_5": {
+        "type": "spacing",
+        "value": "0.375rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "0.375rem"
         },
-        "type": "other"
+        "attributes": {
+          "category": "spacing",
+          "type": "s1_5"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s1_5"
+        }
+      },
+      "s2": {
+        "type": "spacing",
+        "value": "0.5rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "0.5rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s2"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s2"
+        }
+      },
+      "s2_5": {
+        "type": "spacing",
+        "value": "0.625rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "0.625rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s2_5"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s2_5"
+        }
+      },
+      "s3": {
+        "type": "spacing",
+        "value": "0.75rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "0.75rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s3"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s3"
+        }
+      },
+      "s3_5": {
+        "type": "spacing",
+        "value": "0.875rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "0.875rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s3_5"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s3_5"
+        }
+      },
+      "s4": {
+        "type": "spacing",
+        "value": "1rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "1rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s4"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s4"
+        }
+      },
+      "s5": {
+        "type": "spacing",
+        "value": "1.25rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "1.25rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s5"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s5"
+        }
+      },
+      "s6": {
+        "type": "spacing",
+        "value": "1.5rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "1.5rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s6"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s6"
+        }
+      },
+      "s7": {
+        "type": "spacing",
+        "value": "1.75rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "1.75rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s7"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s7"
+        }
+      },
+      "s8": {
+        "type": "spacing",
+        "value": "2rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "2rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s8"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s8"
+        }
+      },
+      "s9": {
+        "type": "spacing",
+        "value": "2.25rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "2.25rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s9"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s9"
+        }
+      },
+      "s10": {
+        "type": "spacing",
+        "value": "2.5rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "2.5rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s10"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s10"
+        }
+      },
+      "s11": {
+        "type": "spacing",
+        "value": "2.75rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "2.75rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s11"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s11"
+        }
+      },
+      "s12": {
+        "type": "spacing",
+        "value": "3rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "3rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s12"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s12"
+        }
+      },
+      "s14": {
+        "type": "spacing",
+        "value": "3.5rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "3.5rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s14"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s14"
+        }
+      },
+      "s16": {
+        "type": "spacing",
+        "value": "4rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "4rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s16"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s16"
+        }
+      },
+      "s20": {
+        "type": "spacing",
+        "value": "5rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "5rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s20"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s20"
+        }
+      },
+      "s24": {
+        "type": "spacing",
+        "value": "6rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "6rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s24"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s24"
+        }
+      },
+      "s28": {
+        "type": "spacing",
+        "value": "7rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "7rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s28"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s28"
+        }
+      },
+      "s32": {
+        "type": "spacing",
+        "value": "8rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "8rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s32"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s32"
+        }
+      },
+      "s36": {
+        "type": "spacing",
+        "value": "9rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "9rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s36"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s36"
+        }
+      },
+      "s40": {
+        "type": "spacing",
+        "value": "10rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "10rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s40"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s40"
+        }
+      },
+      "s44": {
+        "type": "spacing",
+        "value": "11rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "11rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s44"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s44"
+        }
+      },
+      "s48": {
+        "type": "spacing",
+        "value": "12rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "12rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s48"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s48"
+        }
+      },
+      "s52": {
+        "type": "spacing",
+        "value": "13rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "13rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s52"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s52"
+        }
+      },
+      "s56": {
+        "type": "spacing",
+        "value": "14rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "14rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s56"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s56"
+        }
+      },
+      "s60": {
+        "type": "spacing",
+        "value": "15rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "15rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s60"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s60"
+        }
+      },
+      "s64": {
+        "type": "spacing",
+        "value": "16rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "16rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s64"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s64"
+        }
+      },
+      "s72": {
+        "type": "spacing",
+        "value": "18rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "18rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s72"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s72"
+        }
+      },
+      "s80": {
+        "type": "spacing",
+        "value": "20rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "20rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s80"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s80"
+        }
+      },
+      "s96": {
+        "type": "spacing",
+        "value": "24rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "24rem"
+        },
+        "attributes": {
+          "category": "spacing",
+          "type": "s96"
+        },
+        "path": {
+          "0": "spacing",
+          "1": "s96"
+        }
       }
-    }
-  },
-  "radii": {
-    "none": {
-      "value": "0",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "0"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "none"
-      },
-      "path": {
-        "0": "radii",
-        "1": "none"
-      },
-      "type": "other"
-    },
-    "sm": {
-      "value": "0.125rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "0.125rem"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "sm"
-      },
-      "path": {
-        "0": "radii",
-        "1": "sm"
-      },
-      "type": "other"
-    },
-    "base": {
-      "value": "0.25rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "0.25rem"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "base"
-      },
-      "path": {
-        "0": "radii",
-        "1": "base"
-      },
-      "type": "other"
-    },
-    "md": {
-      "value": "0.375rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "0.375rem"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "md"
-      },
-      "path": {
-        "0": "radii",
-        "1": "md"
-      },
-      "type": "other"
-    },
-    "lg": {
-      "value": "0.5rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "0.5rem"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "lg"
-      },
-      "path": {
-        "0": "radii",
-        "1": "lg"
-      },
-      "type": "other"
-    },
-    "xl": {
-      "value": "0.75rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "0.75rem"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "xl"
-      },
-      "path": {
-        "0": "radii",
-        "1": "xl"
-      },
-      "type": "other"
-    },
-    "xl2": {
-      "value": "1rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "1rem"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "xl2"
-      },
-      "path": {
-        "0": "radii",
-        "1": "xl2"
-      },
-      "type": "other"
-    },
-    "xl3": {
-      "value": "1.5rem",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "1.5rem"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "xl3"
-      },
-      "path": {
-        "0": "radii",
-        "1": "xl3"
-      },
-      "type": "other"
-    },
-    "full": {
-      "value": "9999px",
-      "filePath": "tokens\\radii\\radii.tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "9999px"
-      },
-      "attributes": {
-        "category": "radii",
-        "type": "full"
-      },
-      "path": {
-        "0": "radii",
-        "1": "full"
-      },
-      "type": "other"
     }
   }
 }

@@ -2,8 +2,8 @@
   "packages": {
     "dir": "",
     "menu": [
-      ["TOKENS", ["color", "radii", "color", "radii"]],
-      ["COMPONENTS", []],
+      ["TOKENS", ["color", "spacing"]],
+      ["COMPONENTS", ["button"]],
       ["INFRASTRUCTURE", []]
     ]
   }
