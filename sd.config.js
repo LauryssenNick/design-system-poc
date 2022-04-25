@@ -19,7 +19,6 @@ export default {
     // and exports it to a file /figma-tokens.json
     json: {
       transformGroup: 'js',
-      buildPath: '/',
       files: [
         {
           destination: 'figma-tokens.json',
