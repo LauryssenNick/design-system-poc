@@ -1,27 +1,10 @@
 {
- "packages": {
-  "dir": "",
-  "menu": [
-   [
-    "TOKENS",
-    [
-     "color",
-     "radii",
-     "color",
-     "radii",
-     "spacing"
+  "packages": {
+    "dir": "",
+    "menu": [
+      ["TOKENS", ["color", "spacing"]],
+      ["COMPONENTS", ["button"]],
+      ["INFRASTRUCTURE", []]
     ]
-   ],
-   [
-    "COMPONENTS",
-    [
-     "button"
-    ]
-   ],
-   [
-    "INFRASTRUCTURE",
-    []
-   ]
-  ]
- }
+  }
 }
