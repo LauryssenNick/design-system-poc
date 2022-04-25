@@ -6,7 +6,10 @@ import { classMap } from 'lit/directives/class-map.js';
 export default class Button extends LitElement {
   static styles = css`
     :host {
-      background-color: var(--ktn-color-primary-medium);
+      display: inline-block;
+      position: relative;
+      width: auto;
+      cursor: pointer;
     }
 
     .button {
@@ -20,19 +23,31 @@ export default class Button extends LitElement {
       user-select: none;
       white-space: nowrap;
       vertical-align: middle;
-      padding: 0;
       cursor: inherit;
+      border-radius: 4px;
+      padding: 8px 16px;
     }
 
     .button--primary {
       background-color: var(--ktn-color-primary-medium);
+      color: #fff;
+      border-color: var(--ktn-color-primary-medium);
+    }
+
+    .button--primary:hover {
+      background-color: var(--ktn-color-primary-dark);
+      border-color: var(--ktn-color-primary-dark);
     }
   `;
 
   render() {
-    return html`<button class=${classMap({
-      button: true,
-      'button--primary': true
-    })}><slot></slot></button> `;
+    return html`<button
+      class=${classMap({
+        button: true,
+        'button--primary': true,
+      })}
+    >
+      <slot></slot>
+    </button> `;
   }
 }
