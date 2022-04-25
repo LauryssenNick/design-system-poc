@@ -1,15 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 25 Apr 2022 09:59:06 GMT
+ * Generated on Mon, 25 Apr 2022 11:58:44 GMT
  */
 
 :root {
-  --sd-color-base-gray-light: #cccccc;
-  --sd-color-base-gray-medium: #999999;
-  --sd-color-base-gray-dark: #111111;
-  --sd-color-base-primary-light: #db0f16;
-  --sd-color-base-primary-medium: #db0f16;
-  --sd-color-base-primary-dark: #a10000;
   --sd-color-primary-light: #db0f16;
   --sd-color-primary-medium: #db0f16;
   --sd-color-primary-dark: #a10000;

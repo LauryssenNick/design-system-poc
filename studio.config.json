@@ -1,10 +1,26 @@
 {
-  "packages": {
-    "dir": "",
-    "menu": [
-      ["TOKENS", ["color", "radii", "color", "radii"]],
-      ["COMPONENTS", []],
-      ["INFRASTRUCTURE", []]
+ "packages": {
+  "dir": "",
+  "menu": [
+   [
+    "TOKENS",
+    [
+     "color",
+     "radii",
+     "color",
+     "radii"
     ]
-  }
+   ],
+   [
+    "COMPONENTS",
+    [
+     "button"
+    ]
+   ],
+   [
+    "INFRASTRUCTURE",
+    []
+   ]
+  ]
+ }
 }
