@@ -20,7 +20,8 @@
             "1": "base",
             "2": "gray",
             "3": "light"
-          }
+          },
+          "type": "other"
         },
         "medium": {
           "value": "#999999",
@@ -40,7 +41,8 @@
             "1": "base",
             "2": "gray",
             "3": "medium"
-          }
+          },
+          "type": "other"
         },
         "dark": {
           "value": "#111111",
@@ -60,7 +62,8 @@
             "1": "base",
             "2": "gray",
             "3": "dark"
-          }
+          },
+          "type": "other"
         }
       },
       "primary": {
@@ -82,7 +85,8 @@
             "1": "base",
             "2": "primary",
             "3": "light"
-          }
+          },
+          "type": "other"
         },
         "medium": {
           "value": "#db0f16",
@@ -102,7 +106,8 @@
             "1": "base",
             "2": "primary",
             "3": "medium"
-          }
+          },
+          "type": "other"
         },
         "dark": {
           "value": "#a10000",
@@ -122,7 +127,8 @@
             "1": "base",
             "2": "primary",
             "3": "dark"
-          }
+          },
+          "type": "other"
         }
       },
       "red": {
@@ -141,7 +147,8 @@
           "0": "color",
           "1": "base",
           "2": "red"
-        }
+        },
+        "type": "other"
       },
       "green": {
         "value": "#00FF00",
@@ -159,7 +166,8 @@
           "0": "color",
           "1": "base",
           "2": "green"
-        }
+        },
+        "type": "other"
       }
     }
   },
@@ -178,7 +186,8 @@
       "path": {
         "0": "radii",
         "1": "none"
-      }
+      },
+      "type": "other"
     },
     "sm": {
       "value": "0.125rem",
@@ -194,7 +203,8 @@
       "path": {
         "0": "radii",
         "1": "sm"
-      }
+      },
+      "type": "other"
     },
     "base": {
       "value": "0.25rem",
@@ -210,7 +220,8 @@
       "path": {
         "0": "radii",
         "1": "base"
-      }
+      },
+      "type": "other"
     },
     "md": {
       "value": "0.375rem",
@@ -226,7 +237,8 @@
       "path": {
         "0": "radii",
         "1": "md"
-      }
+      },
+      "type": "other"
     },
     "lg": {
       "value": "0.5rem",
@@ -242,7 +254,8 @@
       "path": {
         "0": "radii",
         "1": "lg"
-      }
+      },
+      "type": "other"
     },
     "xl": {
       "value": "0.75rem",
@@ -258,7 +271,8 @@
       "path": {
         "0": "radii",
         "1": "xl"
-      }
+      },
+      "type": "other"
     },
     "xl2": {
       "value": "1rem",
@@ -274,7 +288,8 @@
       "path": {
         "0": "radii",
         "1": "xl2"
-      }
+      },
+      "type": "other"
     },
     "xl3": {
       "value": "1.5rem",
@@ -290,7 +305,8 @@
       "path": {
         "0": "radii",
         "1": "xl3"
-      }
+      },
+      "type": "other"
     },
     "full": {
       "value": "9999px",
@@ -306,7 +322,8 @@
       "path": {
         "0": "radii",
         "1": "full"
-      }
+      },
+      "type": "other"
     }
   }
 }
