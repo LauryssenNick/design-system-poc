@@ -5,7 +5,7 @@ import { customElement } from 'lit/decorators.js';
 export default class Button extends LitElement {
   static styles = css`
     :host {
-      background-color: var(--color-primary-main);
+      background-color: var(--ktn-color-primary-medium);
     }
   `;
 
