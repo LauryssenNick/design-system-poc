@@ -677,6 +677,470 @@
           "1": "s96"
         }
       }
+    },
+    "typography": {
+      "family": {
+        "type": "fontFamilies",
+        "value": "'Roboto', 'Helvetica', 'Arial', sans-serif",
+        "filePath": "typography/src/typography.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "fontFamilies",
+          "value": "'Roboto', 'Helvetica', 'Arial', sans-serif"
+        },
+        "attributes": {
+          "category": "typography",
+          "type": "family"
+        },
+        "path": {
+          "0": "typography",
+          "1": "family"
+        }
+      },
+      "weight": {
+        "thin": {
+          "type": "fontWeights",
+          "value": 100,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 100
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "thin"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "thin"
+          }
+        },
+        "extralight": {
+          "type": "fontWeights",
+          "value": 200,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 200
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "extralight"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "extralight"
+          }
+        },
+        "light": {
+          "type": "fontWeights",
+          "value": 300,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 300
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "light"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "light"
+          }
+        },
+        "normal": {
+          "type": "fontWeights",
+          "value": 400,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 400
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "normal"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "normal"
+          }
+        },
+        "medium": {
+          "type": "fontWeights",
+          "value": 500,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 500
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "medium"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "medium"
+          }
+        },
+        "semibold": {
+          "type": "fontWeights",
+          "value": 600,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 600
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "semibold"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "semibold"
+          }
+        },
+        "bold": {
+          "type": "fontWeights",
+          "value": 700,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 700
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "bold"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "bold"
+          }
+        },
+        "extrabold": {
+          "type": "fontWeights",
+          "value": 800,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 800
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "extrabold"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "extrabold"
+          }
+        },
+        "black": {
+          "type": "fontWeights",
+          "value": 900,
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": 900
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "weight",
+            "item": "black"
+          },
+          "path": {
+            "0": "typography",
+            "1": "weight",
+            "2": "black"
+          }
+        }
+      },
+      "size": {
+        "xs": {
+          "type": "fontSizes",
+          "value": "0.75rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "0.75rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "xs"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "xs"
+          }
+        },
+        "sm": {
+          "type": "fontSizes",
+          "value": "0.875rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "0.875rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "sm"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "sm"
+          }
+        },
+        "base": {
+          "type": "fontSizes",
+          "value": "1rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "1rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "base"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "base"
+          }
+        },
+        "lg": {
+          "type": "fontSizes",
+          "value": "1.125rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "1.125rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "lg"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "lg"
+          }
+        },
+        "xl": {
+          "type": "fontSizes",
+          "value": "1.25rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "1.25rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "xl"
+          }
+        },
+        "2xl": {
+          "type": "fontSizes",
+          "value": "1.5rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "1.5rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "2xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "2xl"
+          }
+        },
+        "3xl": {
+          "type": "fontSizes",
+          "value": "1.875rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "1.875rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "3xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "3xl"
+          }
+        },
+        "4xl": {
+          "type": "fontSizes",
+          "value": "2.25rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "2.25rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "4xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "4xl"
+          }
+        },
+        "5xl": {
+          "type": "fontSizes",
+          "value": "3rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "3rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "5xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "5xl"
+          }
+        },
+        "6xl": {
+          "type": "fontSizes",
+          "value": "3.75rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "3.75rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "6xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "6xl"
+          }
+        },
+        "7xl": {
+          "type": "fontSizes",
+          "value": "4.5rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "4.5rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "7xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "7xl"
+          }
+        },
+        "8xl": {
+          "type": "fontSizes",
+          "value": "6rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "6rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "8xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "8xl"
+          }
+        },
+        "9xl": {
+          "type": "fontSizes",
+          "value": "8rem",
+          "filePath": "typography/src/typography.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontSizes",
+            "value": "8rem"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "size",
+            "item": "9xl"
+          },
+          "path": {
+            "0": "typography",
+            "1": "size",
+            "2": "9xl"
+          }
+        }
+      }
     }
   }
 }
