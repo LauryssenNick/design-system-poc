@@ -8,9 +8,14 @@
   "scripts": {
     "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@divriots/dockit-core": "^0.7.2",
+  "dependencies": {
     "lit": "^2.2.0"
+  },
+  "devDependencies": {
+    "@divriots/dockit-core": "^0.7.2"
+  },
+  "exports": {
+    "./button": "./button/button.js",
+    "./tokens.css": "./tokens/_variables.css"
   }
 }
