@@ -26,6 +26,7 @@ export default class Button extends LitElement {
       cursor: inherit;
       border-radius: 4px;
       padding: 8px 16px;
+      font-family: var(--ktn-typography-family);
     }
 
     .button--primary {
