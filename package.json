@@ -14,7 +14,8 @@
   "devDependencies": {
     "@divriots/dockit-core": "^0.7.2"
   },
-   "exports": {
+  "exports": {
     "./button": "./button/button.js",
-    "./tokens.css": "./tokens/_variables.css",
+    "./tokens.css": "./tokens/_variables.css"
+  }
 }
