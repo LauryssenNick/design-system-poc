@@ -6,4 +6,6 @@ import '../src/button.ts';
 
 ```html:html
 <ktn-button>Button</ktn-button>
+
+<ktn-button disabled>Disabled button</ktn-button>
 ```

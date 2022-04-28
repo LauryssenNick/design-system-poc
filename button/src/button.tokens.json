@@ -52,16 +52,16 @@
             "value": "0.125rem"
           }
         }
+      }
+    },
+    "disabled": {
+      "background": {
+        "type": "color",
+        "value": "{color.gray.light}"
       },
-      "disabled": {
-        "background": {
-          "type": "color",
-          "value": "{color.primary.dark}"
-        },
-        "color": {
-          "type": "color",
-          "value": "{color.primary.light}"
-        }
+      "color": {
+        "type": "color",
+        "value": "{color.gray.medium}"
       }
     }
   }

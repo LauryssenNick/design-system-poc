@@ -6,7 +6,7 @@
   "type": "module",
   "homepage": "{{ homepage }}",
   "scripts": {
-    "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open"
+    "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open --verbose"
   },
   "dependencies": {
     "lit": "^2.2.0"
