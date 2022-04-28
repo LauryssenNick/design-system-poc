@@ -18,7 +18,9 @@
    ],
    [
     "INFRASTRUCTURE",
-    []
+    [
+     "doc-layout"
+    ]
    ]
   ]
  }

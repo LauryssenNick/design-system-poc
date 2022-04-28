@@ -21,7 +21,7 @@ export default  css`
   vertical-align: middle;
   cursor: inherit;
   border-radius: var(--ktn-button-primary-border-radius);
-  padding: var(--ktn-global-spacing-s1) var(--ktn-global-spacing-s2);
+  padding: var(--ktn-spacing-s1) var(--ktn-spacing-s2);
   font-family: var(--ktn-typography-family);
 }
 
