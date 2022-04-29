@@ -1,22 +1,26 @@
-# Colors
+## Colors
 
 ```js script
 import { html } from 'lit';
 import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 ```
 
-## Core
-
 ### Primary colors
 
-Primary colors of our KTN.
+```html preview-story
+<dockit-css-showcases
+  css-props-prefix="--ktn-color-primary"
+  component-class="box"
+  style-key="background-color"
+></dockit-css-showcases>
+```
 
-```js story
-export const primary = () => html`
-  <dockit-css-showcases
-    css-props-prefix="--starter-core-color-primary"
-    component-class="box"
-    style-key="background-color"
-  ></dockit-css-showcases>
-`;
+### Gray
+
+```html preview-story
+<dockit-css-showcases
+  css-props-prefix="--ktn-color-gray"
+  component-class="box"
+  style-key="background-color"
+></dockit-css-showcases>
 ```
