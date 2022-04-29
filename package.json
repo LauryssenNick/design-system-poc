@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "homepage": "{{ homepage }}",
+  "files": ["button", "tokens"],
   "scripts": {
     "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open --verbose"
   },

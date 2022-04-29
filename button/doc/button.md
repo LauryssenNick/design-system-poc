@@ -1,7 +1,7 @@
 ```js script
 import { html } from 'lit';
 import '../../tokens/_variables.css';
-import '../src/button.ts';
+import '../src/button';
 ```
 
 ## Primary button

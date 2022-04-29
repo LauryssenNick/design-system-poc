@@ -5,18 +5,22 @@ import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 
 export const docLayoutTemplate = (content, context) => html`
   <style>
-    ${unsafeHTML(styles)} [slot='logo'] span {
-      color: #db0f16;
-    }
+    ${unsafeHTML(styles)} 
 
     [slot='logo'] {
+          color: #db0f16;
       display: flex;
       align-items: center;
       gap: 1em;
-      font-size: 24px;
+      font-size: 36px;
+      font-weight: bold;
       width: max-content;
     }
   </style>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  />
   <dockit-layout
     disable-color-scheme-change
     initial-color-scheme="light"
