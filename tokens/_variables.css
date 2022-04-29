@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Apr 2022 13:56:18 GMT
+ * Generated on Fri, 29 Apr 2022 15:22:41 GMT
  */
 
 :root {
@@ -74,9 +74,4 @@
   --ktn-typography-size-2xl: 1.5rem;
   --ktn-typography-size-3xl: 1.875rem;
   --ktn-typography-size-4xl: 2.25rem;
-  --ktn-typography-size-5xl: 3rem;
-  --ktn-typography-size-6xl: 3.75rem;
-  --ktn-typography-size-7xl: 4.5rem;
-  --ktn-typography-size-8xl: 6rem;
-  --ktn-typography-size-9xl: 8rem;
 }

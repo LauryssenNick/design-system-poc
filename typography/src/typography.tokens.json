@@ -75,26 +75,6 @@
       "4xl": {
         "type": "fontSizes",
         "value": "2.25rem"
-      },
-      "5xl": {
-        "type": "fontSizes",
-        "value": "3rem"
-      },
-      "6xl": {
-        "type": "fontSizes",
-        "value": "3.75rem"
-      },
-      "7xl": {
-        "type": "fontSizes",
-        "value": "4.5rem"
-      },
-      "8xl": {
-        "type": "fontSizes",
-        "value": "6rem"
-      },
-      "9xl": {
-        "type": "fontSizes",
-        "value": "8rem"
       }
     }
   }
