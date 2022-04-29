@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 26 Apr 2022 08:30:42 GMT
+ * Generated on Thu, 28 Apr 2022 13:56:18 GMT
  */
 
 :root {
@@ -14,45 +14,48 @@
   --ktn-button-primary-hover-outline-width: 0.125rem;
   --ktn-button-primary-active-shadow-color: #a10000;
   --ktn-button-primary-active-shadow-width: 0.125rem;
-  --ktn-button-primary-disabled-background: #a10000;
-  --ktn-button-primary-disabled-color: #db0f16;
+  --ktn-button-disabled-background: #eeeeee;
+  --ktn-button-disabled-color: #9e9e9e;
   --ktn-color-primary-light: #db0f16;
   --ktn-color-primary-medium: #db0f16;
   --ktn-color-primary-dark: #a10000;
-  --ktn-global-spacing-s0: 0px;
-  --ktn-global-spacing-s0-5: 0.125rem;
-  --ktn-global-spacing-s1: 0.25rem;
-  --ktn-global-spacing-s1-5: 0.375rem;
-  --ktn-global-spacing-s2: 0.5rem;
-  --ktn-global-spacing-s2-5: 0.625rem;
-  --ktn-global-spacing-s3: 0.75rem;
-  --ktn-global-spacing-s3-5: 0.875rem;
-  --ktn-global-spacing-s4: 1rem;
-  --ktn-global-spacing-s5: 1.25rem;
-  --ktn-global-spacing-s6: 1.5rem;
-  --ktn-global-spacing-s7: 1.75rem;
-  --ktn-global-spacing-s8: 2rem;
-  --ktn-global-spacing-s9: 2.25rem;
-  --ktn-global-spacing-s10: 2.5rem;
-  --ktn-global-spacing-s11: 2.75rem;
-  --ktn-global-spacing-s12: 3rem;
-  --ktn-global-spacing-s14: 3.5rem;
-  --ktn-global-spacing-s16: 4rem;
-  --ktn-global-spacing-s20: 5rem;
-  --ktn-global-spacing-s24: 6rem;
-  --ktn-global-spacing-s28: 7rem;
-  --ktn-global-spacing-s32: 8rem;
-  --ktn-global-spacing-s36: 9rem;
-  --ktn-global-spacing-s40: 10rem;
-  --ktn-global-spacing-s44: 11rem;
-  --ktn-global-spacing-s48: 12rem;
-  --ktn-global-spacing-s52: 13rem;
-  --ktn-global-spacing-s56: 14rem;
-  --ktn-global-spacing-s60: 15rem;
-  --ktn-global-spacing-s64: 16rem;
-  --ktn-global-spacing-s72: 18rem;
-  --ktn-global-spacing-s80: 20rem;
-  --ktn-global-spacing-s96: 24rem;
+  --ktn-color-gray-light: #eeeeee;
+  --ktn-color-gray-medium: #9e9e9e;
+  --ktn-color-gray-dark: #616161;
+  --ktn-spacing-s0: 0px;
+  --ktn-spacing-s0-5: 0.125rem;
+  --ktn-spacing-s1: 0.25rem;
+  --ktn-spacing-s1-5: 0.375rem;
+  --ktn-spacing-s2: 0.5rem;
+  --ktn-spacing-s2-5: 0.625rem;
+  --ktn-spacing-s3: 0.75rem;
+  --ktn-spacing-s3-5: 0.875rem;
+  --ktn-spacing-s4: 1rem;
+  --ktn-spacing-s5: 1.25rem;
+  --ktn-spacing-s6: 1.5rem;
+  --ktn-spacing-s7: 1.75rem;
+  --ktn-spacing-s8: 2rem;
+  --ktn-spacing-s9: 2.25rem;
+  --ktn-spacing-s10: 2.5rem;
+  --ktn-spacing-s11: 2.75rem;
+  --ktn-spacing-s12: 3rem;
+  --ktn-spacing-s14: 3.5rem;
+  --ktn-spacing-s16: 4rem;
+  --ktn-spacing-s20: 5rem;
+  --ktn-spacing-s24: 6rem;
+  --ktn-spacing-s28: 7rem;
+  --ktn-spacing-s32: 8rem;
+  --ktn-spacing-s36: 9rem;
+  --ktn-spacing-s40: 10rem;
+  --ktn-spacing-s44: 11rem;
+  --ktn-spacing-s48: 12rem;
+  --ktn-spacing-s52: 13rem;
+  --ktn-spacing-s56: 14rem;
+  --ktn-spacing-s60: 15rem;
+  --ktn-spacing-s64: 16rem;
+  --ktn-spacing-s72: 18rem;
+  --ktn-spacing-s80: 20rem;
+  --ktn-spacing-s96: 24rem;
   --ktn-typography-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   --ktn-typography-weight-thin: 100;
   --ktn-typography-weight-extralight: 200;

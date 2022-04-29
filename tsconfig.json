@@ -3,11 +3,10 @@
     "target": "ESNext",
     "allowJs": true,
     "allowNonTsExtensions": true,
+    "useDefineForClassFields": false,
     "experimentalDecorators": true,
-    "jsx": "react",
-    "reactNamespace": "React",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "sourceMap": true,
     "paths": {
       "~/*": ["*"],

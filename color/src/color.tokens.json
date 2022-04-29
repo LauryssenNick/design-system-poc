@@ -14,6 +14,20 @@
         "type": "color",
         "value": "#a10000"
       }
+    },
+    "gray": {
+      "light": {
+        "type": "color",
+        "value": "#eeeeee"
+      },
+      "medium": {
+        "type": "color",
+        "value": "#9e9e9e"
+      },
+      "dark": {
+        "type": "color",
+        "value": "#616161"
+      }
     }
   }
 }

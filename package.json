@@ -1,12 +1,13 @@
 {
-  "name": "@backlight-dev/key-purchase-v3ega.blank-l262crr9",
+  "name": "@backlight-dev/ktn.design-system-poc",
   "version": "0.0.2",
   "description": "",
   "license": "MIT",
   "type": "module",
   "homepage": "{{ homepage }}",
+  "files": ["button", "tokens"],
   "scripts": {
-    "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open"
+    "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open --verbose"
   },
   "dependencies": {
     "lit": "^2.2.0"
