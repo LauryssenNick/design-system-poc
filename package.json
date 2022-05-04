@@ -16,6 +16,7 @@
     "@divriots/dockit-core": "^0.7.2"
   },
   "exports": {
+    ".": "./index.js",
     "./button": "./button/button.js",
     "./tokens.css": "./tokens/_variables.css"
   }
