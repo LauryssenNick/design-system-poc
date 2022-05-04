@@ -520,12 +520,12 @@
       "primary": {
         "light": {
           "type": "color",
-          "value": "#db0f16",
+          "value": "#00FFAA",
           "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#db0f16"
+            "value": "#00FFAA"
           },
           "attributes": {
             "category": "color",
@@ -540,12 +540,12 @@
         },
         "medium": {
           "type": "color",
-          "value": "#db0f16",
+          "value": "#00FFFF",
           "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#db0f16"
+            "value": "#00FFFF"
           },
           "attributes": {
             "category": "color",
@@ -560,12 +560,12 @@
         },
         "dark": {
           "type": "color",
-          "value": "#a10000",
+          "value": "#0BBFBB",
           "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#a10000"
+            "value": "#0BBFBB"
           },
           "attributes": {
             "category": "color",

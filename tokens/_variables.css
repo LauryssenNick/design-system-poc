@@ -1,24 +1,24 @@
 /**
  * Do not edit directly
- * Generated on Wed, 04 May 2022 09:41:51 GMT
+ * Generated on Wed, 04 May 2022 13:33:15 GMT
  */
 
 :root {
-  --ktn-button-primary-background: #db0f16;
+  --ktn-button-primary-background: #00ffff;
   --ktn-button-primary-padding-horizontal: 1rem;
   --ktn-button-primary-padding-vertical: 0.75rem;
   --ktn-button-primary-border-radius: 0.25rem;
-  --ktn-button-primary-hover-background: #db0f16;
-  --ktn-button-primary-hover-outline-color: #a10000;
+  --ktn-button-primary-hover-background: #00ffaa;
+  --ktn-button-primary-hover-outline-color: #0bbfbb;
   --ktn-button-primary-hover-outline-offset: 0.0625rem;
   --ktn-button-primary-hover-outline-width: 0.125rem;
-  --ktn-button-primary-active-shadow-color: #a10000;
+  --ktn-button-primary-active-shadow-color: #0bbfbb;
   --ktn-button-primary-active-shadow-width: 0.125rem;
   --ktn-button-disabled-background: #eeeeee;
   --ktn-button-disabled-color: #9e9e9e;
-  --ktn-color-primary-light: #db0f16;
-  --ktn-color-primary-medium: #db0f16;
-  --ktn-color-primary-dark: #a10000;
+  --ktn-color-primary-light: #00ffaa;
+  --ktn-color-primary-medium: #00ffff;
+  --ktn-color-primary-dark: #0bbfbb;
   --ktn-color-gray-light: #eeeeee;
   --ktn-color-gray-medium: #9e9e9e;
   --ktn-color-gray-dark: #616161;

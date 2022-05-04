@@ -4,15 +4,15 @@
     "primary": {
       "light": {
         "type": "color",
-        "value": "#db0f16"
+        "value": "#00FFAA"
       },
       "medium": {
         "type": "color",
-        "value": "#db0f16"
+        "value": "#00FFFF"
       },
       "dark": {
         "type": "color",
-        "value": "#a10000"
+        "value": "#0BBFBB"
       }
     },
     "gray": {
