@@ -1,3 +1,3 @@
-export * from './button';
-export * from './input';
-export * from './tokens';
+export * from '~/button';
+export * from '~/input';
+export * from '~/tokens';
