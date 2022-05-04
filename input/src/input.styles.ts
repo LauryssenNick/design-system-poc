@@ -15,6 +15,7 @@ export default css`
     font-family: var(--ktn-input-font-family);
     font-weight: var(--ktn-input-font-weight);
     letter-spacing: var(--ktn-input-letter-spacing);
+    border-radius: var(--ktn-input-border-radius);
     vertical-align: middle;
     overflow: hidden;
     cursor: text;
