@@ -3,9 +3,8 @@
   "version": "0.0.6",
   "description": "",
   "license": "MIT",
-  "type": "module",
   "homepage": "{{ homepage }}",
-  "files": ["button", "tokens"],
+  "files": ["/button", "/input", "/tokens", "index.js"],
   "scripts": {
     "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open --verbose"
   },
@@ -14,9 +13,5 @@
   },
   "devDependencies": {
     "@divriots/dockit-core": "^0.7.2"
-  },
-  "exports": {
-    "./button": "./button/button.js",
-    "./tokens.css": "./tokens/_variables.css"
   }
 }
