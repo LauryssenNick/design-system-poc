@@ -1,2 +1,3 @@
-export * from '~/core';
-export * from '~/tokens';
+export * from './button';
+export * from './input';
+export * from './tokens';
