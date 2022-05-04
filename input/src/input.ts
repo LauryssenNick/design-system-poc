@@ -21,6 +21,11 @@ export default class Input extends LitElement {
     emit(this, 'ktn-change');
   }
 
+  handleInput() {
+    this.value = this.input.value;
+    emit(this, 'ktn-input');
+  }
+
   render() {
     return html`
       <input
@@ -30,6 +35,7 @@ export default class Input extends LitElement {
         })}
         .value=${live(this.value)}
         @change=${this.handleChange}
+        @input=${this.handleInput}
       />
     `;
   }
