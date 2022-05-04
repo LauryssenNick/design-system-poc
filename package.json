@@ -3,7 +3,6 @@
   "version": "0.0.6",
   "description": "",
   "license": "MIT",
-  "type": "module",
   "homepage": "{{ homepage }}",
   "files": ["button", "tokens"],
   "scripts": {
