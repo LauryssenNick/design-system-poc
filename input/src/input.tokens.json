@@ -2,7 +2,7 @@
   "input": {
     "background": {
       "type": "color",
-      "value": "{color.gray.light}"
+      "value": "{color.white}"
     },
     "padding": {
       "horizontal": {
@@ -21,7 +21,7 @@
       },
       "color": {
         "type": "color",
-        "value": "{color.gray.medium}"
+        "value": "{color.black}"
       },
       "width": {
         "type": "sizing",

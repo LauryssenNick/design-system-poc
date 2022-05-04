@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 03 May 2022 13:51:04 GMT
+ * Generated on Wed, 04 May 2022 09:41:51 GMT
  */
 
 :root {
@@ -22,11 +22,13 @@
   --ktn-color-gray-light: #eeeeee;
   --ktn-color-gray-medium: #9e9e9e;
   --ktn-color-gray-dark: #616161;
-  --ktn-input-background: #eeeeee;
+  --ktn-color-white: #ffffff;
+  --ktn-color-black: #000000;
+  --ktn-input-background: #ffffff;
   --ktn-input-padding-horizontal: 0.4rem;
   --ktn-input-padding-vertical: 0.4rem;
   --ktn-input-border-radius: 0.25rem;
-  --ktn-input-border-color: #9e9e9e;
+  --ktn-input-border-color: #000000;
   --ktn-input-border-width: 1px;
   --ktn-input-font-weight: 400;
   --ktn-input-font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;

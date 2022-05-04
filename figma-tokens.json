@@ -288,12 +288,12 @@
   "input": {
     "background": {
       "type": "color",
-      "value": "{color.gray.light}",
+      "value": "{color.white}",
       "filePath": "input/src/input.tokens.json",
       "isSource": true,
       "original": {
         "type": "color",
-        "value": "{color.gray.light}"
+        "value": "{color.white}"
       },
       "attributes": {
         "category": "input",
@@ -369,12 +369,12 @@
       },
       "color": {
         "type": "color",
-        "value": "{color.gray.medium}",
+        "value": "{color.black}",
         "filePath": "input/src/input.tokens.json",
         "isSource": true,
         "original": {
           "type": "color",
-          "value": "{color.gray.medium}"
+          "value": "{color.black}"
         },
         "attributes": {
           "category": "input",
@@ -639,6 +639,42 @@
             "1": "gray",
             "2": "dark"
           }
+        }
+      },
+      "white": {
+        "type": "color",
+        "value": "#ffffff",
+        "filePath": "color/src/color.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "attributes": {
+          "category": "color",
+          "type": "white"
+        },
+        "path": {
+          "0": "color",
+          "1": "white"
+        }
+      },
+      "black": {
+        "type": "color",
+        "value": "#000000",
+        "filePath": "color/src/color.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "attributes": {
+          "category": "color",
+          "type": "black"
+        },
+        "path": {
+          "0": "color",
+          "1": "black"
         }
       }
     },

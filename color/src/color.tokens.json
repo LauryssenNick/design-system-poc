@@ -28,6 +28,14 @@
         "type": "color",
         "value": "#616161"
       }
+    },
+    "white": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "black": {
+      "type": "color",
+      "value": "#000000"
     }
   }
 }
