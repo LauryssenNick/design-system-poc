@@ -1,0 +1,58 @@
+{
+  "input": {
+    "background": {
+      "type": "color",
+      "value": "{color.gray.light}"
+    },
+    "padding": {
+      "horizontal": {
+        "type": "spacing",
+        "value": "0.4rem"
+      },
+      "vertical": {
+        "type": "spacing",
+        "value": "0.4rem"
+      }
+    },
+    "border": {
+      "radius": {
+        "type": "borderRadius",
+        "value": "0.25rem"
+      },
+      "color": {
+        "type": "color",
+        "value": "{color.gray.medium}"
+      },
+      "width": {
+        "type": "sizing",
+        "value": "1px"
+      }
+    },
+    "font": {
+      "weight": {
+        "type": "fontWeights",
+        "value": "{typography.weight.normal}"
+      },
+      "family": {
+        "type": "fontFamilies",
+        "value": "{typography.family}"
+      }
+    },
+    "letter": {
+      "spacing": {
+        "type": "letterSpacings",
+        "value": "0.01rem"
+      }
+    },
+    "disabled": {
+      "background": {
+        "type": "color",
+        "value": "{color.gray.light}"
+      },
+      "color": {
+        "type": "color",
+        "value": "{color.gray.medium}"
+      }
+    }
+  }
+}

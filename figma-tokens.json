@@ -285,6 +285,236 @@
       }
     }
   },
+  "input": {
+    "background": {
+      "type": "color",
+      "value": "{color.gray.light}",
+      "filePath": "input/src/input.tokens.json",
+      "isSource": true,
+      "original": {
+        "type": "color",
+        "value": "{color.gray.light}"
+      },
+      "attributes": {
+        "category": "input",
+        "type": "background"
+      },
+      "path": {
+        "0": "input",
+        "1": "background"
+      }
+    },
+    "padding": {
+      "horizontal": {
+        "type": "spacing",
+        "value": "0.4rem",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "0.4rem"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "padding",
+          "item": "horizontal"
+        },
+        "path": {
+          "0": "input",
+          "1": "padding",
+          "2": "horizontal"
+        }
+      },
+      "vertical": {
+        "type": "spacing",
+        "value": "0.4rem",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "0.4rem"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "padding",
+          "item": "vertical"
+        },
+        "path": {
+          "0": "input",
+          "1": "padding",
+          "2": "vertical"
+        }
+      }
+    },
+    "border": {
+      "radius": {
+        "type": "borderRadius",
+        "value": "0.25rem",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "borderRadius",
+          "value": "0.25rem"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "border",
+          "item": "radius"
+        },
+        "path": {
+          "0": "input",
+          "1": "border",
+          "2": "radius"
+        }
+      },
+      "color": {
+        "type": "color",
+        "value": "{color.gray.medium}",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.gray.medium}"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "border",
+          "item": "color"
+        },
+        "path": {
+          "0": "input",
+          "1": "border",
+          "2": "color"
+        }
+      },
+      "width": {
+        "type": "sizing",
+        "value": "1px",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "sizing",
+          "value": "1px"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "border",
+          "item": "width"
+        },
+        "path": {
+          "0": "input",
+          "1": "border",
+          "2": "width"
+        }
+      }
+    },
+    "font": {
+      "weight": {
+        "type": "fontWeights",
+        "value": "{typography.weight.normal}",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "fontWeights",
+          "value": "{typography.weight.normal}"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "font",
+          "item": "weight"
+        },
+        "path": {
+          "0": "input",
+          "1": "font",
+          "2": "weight"
+        }
+      },
+      "family": {
+        "type": "fontFamilies",
+        "value": "{typography.family}",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "fontFamilies",
+          "value": "{typography.family}"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "font",
+          "item": "family"
+        },
+        "path": {
+          "0": "input",
+          "1": "font",
+          "2": "family"
+        }
+      }
+    },
+    "letter": {
+      "spacing": {
+        "type": "letterSpacings",
+        "value": "0.01rem",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "letterSpacings",
+          "value": "0.01rem"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "letter",
+          "item": "spacing"
+        },
+        "path": {
+          "0": "input",
+          "1": "letter",
+          "2": "spacing"
+        }
+      }
+    },
+    "disabled": {
+      "background": {
+        "type": "color",
+        "value": "{color.gray.light}",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.gray.light}"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "disabled",
+          "item": "background"
+        },
+        "path": {
+          "0": "input",
+          "1": "disabled",
+          "2": "background"
+        }
+      },
+      "color": {
+        "type": "color",
+        "value": "{color.gray.medium}",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.gray.medium}"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "disabled",
+          "item": "color"
+        },
+        "path": {
+          "0": "input",
+          "1": "disabled",
+          "2": "color"
+        }
+      }
+    }
+  },
   "global": {
     "color": {
       "primary": {

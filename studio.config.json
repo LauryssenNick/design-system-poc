@@ -1,27 +1,11 @@
 {
- "packages": {
-  "dir": "",
-  "menu": [
-   [
-    "TOKENS",
-    [
-     "color",
-     "spacing",
-     "typography"
+  "packages": {
+    "dir": "",
+    "menu": [
+      ["TOKENS", ["color", "spacing", "typography"]],
+      ["COMPONENTS", ["button", "input"]],
+      ["INTERNAL", ["utils"]],
+      ["INFRASTRUCTURE", ["doc-layout"]]
     ]
-   ],
-   [
-    "COMPONENTS",
-    [
-     "button"
-    ]
-   ],
-   [
-    "INFRASTRUCTURE",
-    [
-     "doc-layout"
-    ]
-   ]
-  ]
- }
+  }
 }
