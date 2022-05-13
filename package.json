@@ -4,9 +4,6 @@
   "description": "",
   "license": "MIT",
   "homepage": "{{ homepage }}",
-  "keywords": [
-    "bkl"
-  ],
   "files": [
     "/button",
     "/input",
