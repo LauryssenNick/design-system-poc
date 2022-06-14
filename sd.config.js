@@ -1,17 +1,16 @@
 // Importing our tokens transformer for Figma Tokens JSON format
-import sdToFigma from '@divriots/style-dictionary-to-figma';
+import { transform } from '@divriots/style-dictionary-to-figma';
 
 export default {
   // This array of globs will match our token source files
   source: ['**/*.tokens.json'],
   format: {
     // Define a custom format using our transformer
-    figmaTokensPluginJson: (opts) => {
-      const { dictionary } = opts;
+    figmaTokensPluginJson: ({ dictionary }) => {
       // Transform the tokens from the style dictionary instance
-      const parsedTokens = sdToFigma(dictionary.tokens);
+      const transformedTokens = transform(dictionary.tokens);
       // Turn the object into JSON, the "2" third param is used to format indents with 2 spaces
-      return JSON.stringify(parsedTokens, null, 2);
+      return JSON.stringify(transformedTokens, null, 2);
     },
   },
   platforms: {
