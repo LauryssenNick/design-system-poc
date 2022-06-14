@@ -17,8 +17,6 @@ import '@backlight-dev/ktn.design-system-poc/style.css';
 export const base = () => html`<ktn-button>Button</ktn-button>`;
 ```
 
-##
-
 ## Disabled button
 
 ```js preview-story

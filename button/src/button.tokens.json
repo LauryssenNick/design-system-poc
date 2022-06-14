@@ -3,7 +3,7 @@
     "primary": {
       "background": {
         "type": "color",
-        "value": "{color.primary.dark}"
+        "value": "{color.primary.medium}"
       },
       "padding": {
         "horizontal": {
