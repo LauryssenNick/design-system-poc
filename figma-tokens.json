@@ -540,12 +540,12 @@
         },
         "medium": {
           "type": "color",
-          "value": "#db0f16",
+          "value": "#bada55",
           "filePath": "color/src/color.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#db0f16"
+            "value": "#bada55"
           },
           "attributes": {
             "category": "color",
