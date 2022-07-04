@@ -1,6 +1,6 @@
 {
   "name": "@backlight-dev/ktn.design-system-poc",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "license": "MIT",
   "homepage": "{{ homepage }}",
