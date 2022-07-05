@@ -8,6 +8,8 @@ import { emit } from '../../utils/utils';
 
 @customElement('ktn-input')
 export default class Input extends LitElement {
+  static formAssociated = true;
+
   static styles = styles;
 
   @query('.input') input: HTMLInputElement;
@@ -17,14 +19,22 @@ export default class Input extends LitElement {
   /** Disables the button. */
   @property({ type: Boolean, reflect: true })
   disabled = false;
+  internals_: ElementInternals;
+
+  constructor() {
+    super();
+    this.internals_ = this.attachInternals();
+  }
 
   handleChange() {
     this.value = this.input.value;
+    this.internals_.setFormValue(this.input.value);
     emit(this, 'ktn-change');
   }
 
   handleInput() {
     this.value = this.input.value;
+    this.internals_.setFormValue(this.input.value);
     emit(this, 'ktn-input');
   }
 
