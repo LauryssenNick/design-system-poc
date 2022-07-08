@@ -1,7 +1,7 @@
 {
   "core": {
+    "tokenset": "global",
     "color": {
-      "tokenset": "global",
       "gray": {
         "light": {
           "type": "color",
@@ -72,7 +72,7 @@
     "primary": {
       "light": {
         "type": "color",
-        "value": "{core.color.red.50}"
+        "value": "{core.color.red.100}"
       },
       "medium": {
         "type": "color",
