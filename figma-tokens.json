@@ -641,6 +641,208 @@
           }
         }
       },
+      "red": {
+        "50": {
+          "type": "color",
+          "value": "#FFE5E6",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FFE5E6"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "50"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "50"
+          }
+        },
+        "100": {
+          "type": "color",
+          "value": "#FFCCCC",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FFCCCC"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "100"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "100"
+          }
+        },
+        "200": {
+          "type": "color",
+          "value": "#FF9999",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FF9999"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "200"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "200"
+          }
+        },
+        "300": {
+          "type": "color",
+          "value": "#FF6666",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FF6666"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "300"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "300"
+          }
+        },
+        "400": {
+          "type": "color",
+          "value": "#FF3333",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FF3333"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "400"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "400"
+          }
+        },
+        "500": {
+          "type": "color",
+          "value": "#FF0000",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FF0000"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "500"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "500"
+          }
+        },
+        "600": {
+          "type": "color",
+          "value": "#CC0000",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#CC0000"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "600"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "600"
+          }
+        },
+        "700": {
+          "type": "color",
+          "value": "#990000",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#990000"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "700"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "700"
+          }
+        },
+        "800": {
+          "type": "color",
+          "value": "#660000",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#660000"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "800"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "800"
+          }
+        },
+        "900": {
+          "type": "color",
+          "value": "#330000",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#330000"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "red",
+            "item": "900"
+          },
+          "path": {
+            "0": "color",
+            "1": "red",
+            "2": "900"
+          }
+        }
+      },
       "white": {
         "type": "color",
         "value": "#ffffff",
