@@ -15,6 +15,16 @@ import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 ></dockit-css-showcases>
 ```
 
+### Red
+
+```html preview-story
+<dockit-css-showcases
+  css-props-prefix="--ktn-color-red"
+  component-class="box"
+  style-key="background-color"
+></dockit-css-showcases>
+```
+
 ### Gray
 
 ```html preview-story
