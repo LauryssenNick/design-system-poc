@@ -1,0 +1,18 @@
+{
+  "semantic": {
+    "primary": {
+      "light": {
+        "type": "color",
+        "value": "{core.color.red.100}"
+      },
+      "medium": {
+        "type": "color",
+        "value": "#db0f16"
+      },
+      "dark": {
+        "type": "color",
+        "value": "#a10001"
+      }
+    }
+  }
+}
