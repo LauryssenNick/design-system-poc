@@ -1354,7 +1354,7 @@
       "family": {
         "type": "fontFamilies",
         "value": "'Roboto', 'Helvetica', 'Arial', sans-serif",
-        "filePath": "typography/src/core.tokens.json",
+        "filePath": "typography/src/typography.tokens.json",
         "isSource": true,
         "original": {
           "type": "fontFamilies",
@@ -1375,7 +1375,7 @@
         "normal": {
           "type": "fontWeights",
           "value": 400,
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontWeights",
@@ -1397,7 +1397,7 @@
         "medium": {
           "type": "fontWeights",
           "value": 500,
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontWeights",
@@ -1421,7 +1421,7 @@
         "1": {
           "type": "fontSizes",
           "value": "3.75rem",
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontSizes",
@@ -1443,7 +1443,7 @@
         "2": {
           "type": "fontSizes",
           "value": "3rem",
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontSizes",
@@ -1465,7 +1465,7 @@
         "3": {
           "type": "fontSizes",
           "value": "2.25rem",
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontSizes",
@@ -1487,7 +1487,7 @@
         "4": {
           "type": "fontSizes",
           "value": "1.5rem",
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontSizes",
@@ -1509,7 +1509,7 @@
         "5": {
           "type": "fontSizes",
           "value": "1.125rem",
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontSizes",
@@ -1531,7 +1531,7 @@
         "6": {
           "type": "fontSizes",
           "value": "0.938rem",
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontSizes",
@@ -1553,7 +1553,7 @@
         "7": {
           "type": "fontSizes",
           "value": "0.75rem",
-          "filePath": "typography/src/core.tokens.json",
+          "filePath": "typography/src/typography.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontSizes",
