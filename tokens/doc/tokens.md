@@ -68,8 +68,8 @@ Tokens can often be categorised depending on where or when they should be used.
 
 ### State
 
-States are especially useful for interactive elements. However there may be other stateful aspects of your UI to consider.
+States are especially useful for interactive elements.
 
 ```
---ktn-semantic-color-primary-disabled
+--ktn-semantic-color-primary-hover
 ```
