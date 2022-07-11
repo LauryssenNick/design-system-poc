@@ -18,7 +18,7 @@ export default css`
     user-select: none;
     white-space: nowrap;
     vertical-align: middle;
-    border-radius: var(--ktn-button-primary-border-radius);
+    border-radius: var(--ktn-button-border-radius);
     padding: var(--ktn-core-spacing-1) var(--ktn-core-spacing-2);
     font-family: var(--ktn-button-font-family);
   }

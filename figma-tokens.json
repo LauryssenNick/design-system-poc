@@ -1,599 +1,189 @@
 {
-  "button": {
-    "primary": {
-      "background": {
-        "type": "color",
-        "value": "{semantic.color.primary.medium}",
-        "filePath": "button/src/button.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{semantic.color.primary.medium}"
-        },
-        "attributes": {
-          "category": "button",
-          "type": "primary",
-          "item": "background"
-        },
-        "path": {
-          "0": "button",
-          "1": "primary",
-          "2": "background"
-        }
-      },
-      "padding": {
-        "horizontal": {
-          "type": "spacing",
-          "value": "1rem",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "spacing",
-            "value": "1rem"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "primary",
-            "item": "padding",
-            "subitem": "horizontal"
-          },
-          "path": {
-            "0": "button",
-            "1": "primary",
-            "2": "padding",
-            "3": "horizontal"
-          }
-        },
-        "vertical": {
-          "type": "spacing",
-          "value": "0.75rem",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "spacing",
-            "value": "0.75rem"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "primary",
-            "item": "padding",
-            "subitem": "vertical"
-          },
-          "path": {
-            "0": "button",
-            "1": "primary",
-            "2": "padding",
-            "3": "vertical"
-          }
-        }
-      },
-      "border": {
-        "radius": {
-          "type": "borderRadius",
-          "value": "0.25rem",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "borderRadius",
-            "value": "0.25rem"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "primary",
-            "item": "border",
-            "subitem": "radius"
-          },
-          "path": {
-            "0": "button",
-            "1": "primary",
-            "2": "border",
-            "3": "radius"
-          }
-        },
-        "color": {
-          "type": "color",
-          "value": "{semantic.color.primary.medium}",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{semantic.color.primary.medium}"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "primary",
-            "item": "border",
-            "subitem": "color"
-          },
-          "path": {
-            "0": "button",
-            "1": "primary",
-            "2": "border",
-            "3": "color"
-          }
-        }
-      },
-      "hover": {
-        "background": {
-          "type": "color",
-          "value": "{semantic.color.primary.dark}",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{semantic.color.primary.dark}"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "primary",
-            "item": "hover",
-            "subitem": "background"
-          },
-          "path": {
-            "0": "button",
-            "1": "primary",
-            "2": "hover",
-            "3": "background"
-          }
-        },
-        "border": {
-          "color": {
-            "type": "color",
-            "value": "{semantic.color.primary.dark}",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{semantic.color.primary.dark}"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "primary",
-              "item": "hover",
-              "subitem": "border",
-              "state": "color"
-            },
-            "path": {
-              "0": "button",
-              "1": "primary",
-              "2": "hover",
-              "3": "border",
-              "4": "color"
-            }
-          }
-        },
-        "outline": {
-          "color": {
-            "type": "color",
-            "value": "{semantic.color.primary.light}",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{semantic.color.primary.light}"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "primary",
-              "item": "hover",
-              "subitem": "outline",
-              "state": "color"
-            },
-            "path": {
-              "0": "button",
-              "1": "primary",
-              "2": "hover",
-              "3": "outline",
-              "4": "color"
-            }
-          },
-          "offset": {
-            "type": "spacing",
-            "value": "0.0625rem",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "spacing",
-              "value": "0.0625rem"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "primary",
-              "item": "hover",
-              "subitem": "outline",
-              "state": "offset"
-            },
-            "path": {
-              "0": "button",
-              "1": "primary",
-              "2": "hover",
-              "3": "outline",
-              "4": "offset"
-            }
-          },
-          "width": {
-            "type": "sizing",
-            "value": "0.125rem",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "sizing",
-              "value": "0.125rem"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "primary",
-              "item": "hover",
-              "subitem": "outline",
-              "state": "width"
-            },
-            "path": {
-              "0": "button",
-              "1": "primary",
-              "2": "hover",
-              "3": "outline",
-              "4": "width"
-            }
-          }
-        }
-      }
-    },
-    "secondary": {
-      "background": {
-        "type": "color",
-        "value": "{semantic.color.secondary.medium}",
-        "filePath": "button/src/button.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{semantic.color.secondary.medium}"
-        },
-        "attributes": {
-          "category": "button",
-          "type": "secondary",
-          "item": "background"
-        },
-        "path": {
-          "0": "button",
-          "1": "secondary",
-          "2": "background"
-        }
-      },
-      "padding": {
-        "horizontal": {
-          "type": "spacing",
-          "value": "1rem",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "spacing",
-            "value": "1rem"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "secondary",
-            "item": "padding",
-            "subitem": "horizontal"
-          },
-          "path": {
-            "0": "button",
-            "1": "secondary",
-            "2": "padding",
-            "3": "horizontal"
-          }
-        },
-        "vertical": {
-          "type": "spacing",
-          "value": "0.75rem",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "spacing",
-            "value": "0.75rem"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "secondary",
-            "item": "padding",
-            "subitem": "vertical"
-          },
-          "path": {
-            "0": "button",
-            "1": "secondary",
-            "2": "padding",
-            "3": "vertical"
-          }
-        }
-      },
-      "border": {
-        "radius": {
-          "type": "borderRadius",
-          "value": "0.25rem",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "borderRadius",
-            "value": "0.25rem"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "secondary",
-            "item": "border",
-            "subitem": "radius"
-          },
-          "path": {
-            "0": "button",
-            "1": "secondary",
-            "2": "border",
-            "3": "radius"
-          }
-        },
-        "color": {
-          "type": "color",
-          "value": "{semantic.color.secondary.medium}",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{semantic.color.secondary.medium}"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "secondary",
-            "item": "border",
-            "subitem": "color"
-          },
-          "path": {
-            "0": "button",
-            "1": "secondary",
-            "2": "border",
-            "3": "color"
-          }
-        }
-      },
-      "hover": {
-        "background": {
-          "type": "color",
-          "value": "{semantic.color.secondary.dark}",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{semantic.color.secondary.dark}"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "secondary",
-            "item": "hover",
-            "subitem": "background"
-          },
-          "path": {
-            "0": "button",
-            "1": "secondary",
-            "2": "hover",
-            "3": "background"
-          }
-        },
-        "border": {
-          "color": {
-            "type": "color",
-            "value": "{semantic.color.secondary.dark}",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{semantic.color.secondary.dark}"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "secondary",
-              "item": "hover",
-              "subitem": "border",
-              "state": "color"
-            },
-            "path": {
-              "0": "button",
-              "1": "secondary",
-              "2": "hover",
-              "3": "border",
-              "4": "color"
-            }
-          }
-        },
-        "outline": {
-          "color": {
-            "type": "color",
-            "value": "{semantic.color.secondary.light}",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{semantic.color.secondary.light}"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "secondary",
-              "item": "hover",
-              "subitem": "outline",
-              "state": "color"
-            },
-            "path": {
-              "0": "button",
-              "1": "secondary",
-              "2": "hover",
-              "3": "outline",
-              "4": "color"
-            }
-          },
-          "offset": {
-            "type": "spacing",
-            "value": "0.0625rem",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "spacing",
-              "value": "0.0625rem"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "secondary",
-              "item": "hover",
-              "subitem": "outline",
-              "state": "offset"
-            },
-            "path": {
-              "0": "button",
-              "1": "secondary",
-              "2": "hover",
-              "3": "outline",
-              "4": "offset"
-            }
-          },
-          "width": {
-            "type": "sizing",
-            "value": "0.125rem",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "sizing",
-              "value": "0.125rem"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "secondary",
-              "item": "hover",
-              "subitem": "outline",
-              "state": "width"
-            },
-            "path": {
-              "0": "button",
-              "1": "secondary",
-              "2": "hover",
-              "3": "outline",
-              "4": "width"
-            }
-          }
-        }
-      },
-      "active": {
-        "shadow": {
-          "color": {
-            "type": "color",
-            "value": "{semantic.color.primary.dark}",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{semantic.color.primary.dark}"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "secondary",
-              "item": "active",
-              "subitem": "shadow",
-              "state": "color"
-            },
-            "path": {
-              "0": "button",
-              "1": "secondary",
-              "2": "active",
-              "3": "shadow",
-              "4": "color"
-            }
-          },
-          "width": {
-            "type": "sizing",
-            "value": "0.125rem",
-            "filePath": "button/src/button.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "sizing",
-              "value": "0.125rem"
-            },
-            "attributes": {
-              "category": "button",
-              "type": "secondary",
-              "item": "active",
-              "subitem": "shadow",
-              "state": "width"
-            },
-            "path": {
-              "0": "button",
-              "1": "secondary",
-              "2": "active",
-              "3": "shadow",
-              "4": "width"
-            }
-          }
-        }
-      }
-    },
-    "disabled": {
-      "background": {
-        "type": "color",
-        "value": "{semantic.color.disabled.background}",
-        "filePath": "button/src/button.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{semantic.color.disabled.background}"
-        },
-        "attributes": {
-          "category": "button",
-          "type": "disabled",
-          "item": "background"
-        },
-        "path": {
-          "0": "button",
-          "1": "disabled",
-          "2": "background"
-        }
-      },
-      "color": {
-        "type": "color",
-        "value": "{semantic.color.disabled.color}",
-        "filePath": "button/src/button.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{semantic.color.disabled.color}"
-        },
-        "attributes": {
-          "category": "button",
-          "type": "disabled",
-          "item": "color"
-        },
-        "path": {
-          "0": "button",
-          "1": "disabled",
-          "2": "color"
-        }
-      }
-    },
-    "font": {
-      "family": {
-        "type": "fontFamilies",
-        "value": "{core.font.family}",
-        "filePath": "button/src/button.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "fontFamilies",
-          "value": "{core.font.family}"
-        },
-        "attributes": {
-          "category": "button",
-          "type": "font",
-          "item": "family"
-        },
-        "path": {
-          "0": "button",
-          "1": "font",
-          "2": "family"
-        }
-      }
-    }
-  },
   "core": {
+    "border": {
+      "radius": {
+        "none": {
+          "value": "0",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "none"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "none"
+          }
+        },
+        "sm": {
+          "value": "0.125rem",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.125rem"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "sm"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "sm"
+          }
+        },
+        "base": {
+          "value": "0.25rem",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.25rem"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "base"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "base"
+          }
+        },
+        "md": {
+          "value": "0.375rem",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.375rem"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "md"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "md"
+          }
+        },
+        "lg": {
+          "value": "0.5rem",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.5rem"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "lg"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "lg"
+          }
+        },
+        "xl": {
+          "value": "0.75rem",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.75rem"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "xl"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "xl"
+          }
+        },
+        "xl2": {
+          "value": "1rem",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "1rem"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "xl2"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "xl2"
+          }
+        },
+        "xl3": {
+          "value": "1.5rem",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5rem"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "xl3"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "xl3"
+          }
+        },
+        "full": {
+          "value": "9999px",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "9999px"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "full"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "full"
+          }
+        }
+      }
+    },
     "color": {
       "gray": {
         "light": {
@@ -1571,6 +1161,598 @@
             "2": "size",
             "3": "7"
           }
+        }
+      }
+    }
+  },
+  "button": {
+    "primary": {
+      "background": {
+        "type": "color",
+        "value": "{semantic.color.primary.medium}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{semantic.color.primary.medium}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "primary",
+          "item": "background"
+        },
+        "path": {
+          "0": "button",
+          "1": "primary",
+          "2": "background"
+        }
+      },
+      "padding": {
+        "horizontal": {
+          "type": "spacing",
+          "value": "1rem",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "spacing",
+            "value": "1rem"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "primary",
+            "item": "padding",
+            "subitem": "horizontal"
+          },
+          "path": {
+            "0": "button",
+            "1": "primary",
+            "2": "padding",
+            "3": "horizontal"
+          }
+        },
+        "vertical": {
+          "type": "spacing",
+          "value": "0.75rem",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "spacing",
+            "value": "0.75rem"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "primary",
+            "item": "padding",
+            "subitem": "vertical"
+          },
+          "path": {
+            "0": "button",
+            "1": "primary",
+            "2": "padding",
+            "3": "vertical"
+          }
+        }
+      },
+      "border": {
+        "radius": {
+          "type": "borderRadius",
+          "value": "0.25rem",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "borderRadius",
+            "value": "0.25rem"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "primary",
+            "item": "border",
+            "subitem": "radius"
+          },
+          "path": {
+            "0": "button",
+            "1": "primary",
+            "2": "border",
+            "3": "radius"
+          }
+        },
+        "color": {
+          "type": "color",
+          "value": "{semantic.color.primary.medium}",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{semantic.color.primary.medium}"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "primary",
+            "item": "border",
+            "subitem": "color"
+          },
+          "path": {
+            "0": "button",
+            "1": "primary",
+            "2": "border",
+            "3": "color"
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "type": "color",
+          "value": "{semantic.color.primary.dark}",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{semantic.color.primary.dark}"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "primary",
+            "item": "hover",
+            "subitem": "background"
+          },
+          "path": {
+            "0": "button",
+            "1": "primary",
+            "2": "hover",
+            "3": "background"
+          }
+        },
+        "border": {
+          "color": {
+            "type": "color",
+            "value": "{semantic.color.primary.dark}",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{semantic.color.primary.dark}"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "primary",
+              "item": "hover",
+              "subitem": "border",
+              "state": "color"
+            },
+            "path": {
+              "0": "button",
+              "1": "primary",
+              "2": "hover",
+              "3": "border",
+              "4": "color"
+            }
+          }
+        },
+        "outline": {
+          "color": {
+            "type": "color",
+            "value": "{semantic.color.primary.light}",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{semantic.color.primary.light}"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "primary",
+              "item": "hover",
+              "subitem": "outline",
+              "state": "color"
+            },
+            "path": {
+              "0": "button",
+              "1": "primary",
+              "2": "hover",
+              "3": "outline",
+              "4": "color"
+            }
+          },
+          "offset": {
+            "type": "spacing",
+            "value": "0.0625rem",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "spacing",
+              "value": "0.0625rem"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "primary",
+              "item": "hover",
+              "subitem": "outline",
+              "state": "offset"
+            },
+            "path": {
+              "0": "button",
+              "1": "primary",
+              "2": "hover",
+              "3": "outline",
+              "4": "offset"
+            }
+          },
+          "width": {
+            "type": "sizing",
+            "value": "0.125rem",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "sizing",
+              "value": "0.125rem"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "primary",
+              "item": "hover",
+              "subitem": "outline",
+              "state": "width"
+            },
+            "path": {
+              "0": "button",
+              "1": "primary",
+              "2": "hover",
+              "3": "outline",
+              "4": "width"
+            }
+          }
+        }
+      }
+    },
+    "secondary": {
+      "background": {
+        "type": "color",
+        "value": "{semantic.color.secondary.medium}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{semantic.color.secondary.medium}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "secondary",
+          "item": "background"
+        },
+        "path": {
+          "0": "button",
+          "1": "secondary",
+          "2": "background"
+        }
+      },
+      "padding": {
+        "horizontal": {
+          "type": "spacing",
+          "value": "1rem",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "spacing",
+            "value": "1rem"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "secondary",
+            "item": "padding",
+            "subitem": "horizontal"
+          },
+          "path": {
+            "0": "button",
+            "1": "secondary",
+            "2": "padding",
+            "3": "horizontal"
+          }
+        },
+        "vertical": {
+          "type": "spacing",
+          "value": "0.75rem",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "spacing",
+            "value": "0.75rem"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "secondary",
+            "item": "padding",
+            "subitem": "vertical"
+          },
+          "path": {
+            "0": "button",
+            "1": "secondary",
+            "2": "padding",
+            "3": "vertical"
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "type": "color",
+          "value": "{semantic.color.secondary.medium}",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{semantic.color.secondary.medium}"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "secondary",
+            "item": "border",
+            "subitem": "color"
+          },
+          "path": {
+            "0": "button",
+            "1": "secondary",
+            "2": "border",
+            "3": "color"
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "type": "color",
+          "value": "{semantic.color.secondary.dark}",
+          "filePath": "button/src/button.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{semantic.color.secondary.dark}"
+          },
+          "attributes": {
+            "category": "button",
+            "type": "secondary",
+            "item": "hover",
+            "subitem": "background"
+          },
+          "path": {
+            "0": "button",
+            "1": "secondary",
+            "2": "hover",
+            "3": "background"
+          }
+        },
+        "border": {
+          "color": {
+            "type": "color",
+            "value": "{semantic.color.secondary.dark}",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{semantic.color.secondary.dark}"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "secondary",
+              "item": "hover",
+              "subitem": "border",
+              "state": "color"
+            },
+            "path": {
+              "0": "button",
+              "1": "secondary",
+              "2": "hover",
+              "3": "border",
+              "4": "color"
+            }
+          }
+        },
+        "outline": {
+          "color": {
+            "type": "color",
+            "value": "{semantic.color.secondary.light}",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{semantic.color.secondary.light}"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "secondary",
+              "item": "hover",
+              "subitem": "outline",
+              "state": "color"
+            },
+            "path": {
+              "0": "button",
+              "1": "secondary",
+              "2": "hover",
+              "3": "outline",
+              "4": "color"
+            }
+          },
+          "offset": {
+            "type": "spacing",
+            "value": "0.0625rem",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "spacing",
+              "value": "0.0625rem"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "secondary",
+              "item": "hover",
+              "subitem": "outline",
+              "state": "offset"
+            },
+            "path": {
+              "0": "button",
+              "1": "secondary",
+              "2": "hover",
+              "3": "outline",
+              "4": "offset"
+            }
+          },
+          "width": {
+            "type": "sizing",
+            "value": "0.125rem",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "sizing",
+              "value": "0.125rem"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "secondary",
+              "item": "hover",
+              "subitem": "outline",
+              "state": "width"
+            },
+            "path": {
+              "0": "button",
+              "1": "secondary",
+              "2": "hover",
+              "3": "outline",
+              "4": "width"
+            }
+          }
+        }
+      },
+      "active": {
+        "shadow": {
+          "color": {
+            "type": "color",
+            "value": "{semantic.color.primary.dark}",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{semantic.color.primary.dark}"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "secondary",
+              "item": "active",
+              "subitem": "shadow",
+              "state": "color"
+            },
+            "path": {
+              "0": "button",
+              "1": "secondary",
+              "2": "active",
+              "3": "shadow",
+              "4": "color"
+            }
+          },
+          "width": {
+            "type": "sizing",
+            "value": "0.125rem",
+            "filePath": "button/src/button.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "sizing",
+              "value": "0.125rem"
+            },
+            "attributes": {
+              "category": "button",
+              "type": "secondary",
+              "item": "active",
+              "subitem": "shadow",
+              "state": "width"
+            },
+            "path": {
+              "0": "button",
+              "1": "secondary",
+              "2": "active",
+              "3": "shadow",
+              "4": "width"
+            }
+          }
+        }
+      }
+    },
+    "disabled": {
+      "background": {
+        "type": "color",
+        "value": "{semantic.color.disabled.background}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{semantic.color.disabled.background}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "disabled",
+          "item": "background"
+        },
+        "path": {
+          "0": "button",
+          "1": "disabled",
+          "2": "background"
+        }
+      },
+      "color": {
+        "type": "color",
+        "value": "{semantic.color.disabled.color}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{semantic.color.disabled.color}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "disabled",
+          "item": "color"
+        },
+        "path": {
+          "0": "button",
+          "1": "disabled",
+          "2": "color"
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "type": "fontFamilies",
+        "value": "{core.font.family}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "fontFamilies",
+          "value": "{core.font.family}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "font",
+          "item": "family"
+        },
+        "path": {
+          "0": "button",
+          "1": "font",
+          "2": "family"
+        }
+      }
+    },
+    "border": {
+      "radius": {
+        "value": "{core.border.radius.base}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "{core.border.radius.base}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "border",
+          "item": "radius"
+        },
+        "path": {
+          "0": "button",
+          "1": "border",
+          "2": "radius"
         }
       }
     }

@@ -68,10 +68,6 @@
         }
       },
       "border": {
-        "radius": {
-          "type": "borderRadius",
-          "value": "0.25rem"
-        },
         "color": {
           "type": "color",
           "value": "{semantic.color.secondary.medium}"
@@ -130,6 +126,11 @@
       "family": {
         "type": "fontFamilies",
         "value": "{core.font.family}"
+      }
+    },
+    "border": {
+      "radius": {
+        "value": "{core.border.radius.base}"
       }
     }
   }
