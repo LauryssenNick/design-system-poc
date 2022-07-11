@@ -18,6 +18,13 @@ import '@backlight-dev/ktn.design-system-poc/style.css';
 export const base = () => html`<ktn-button>Button</ktn-button>`;
 ```
 
+## Secondary button
+
+```js preview-story
+export const secondary = () =>
+  html`<ktn-button variant="secondary">Button</ktn-button>`;
+```
+
 ## Disabled button
 
 ```js preview-story

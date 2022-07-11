@@ -1,17 +1,43 @@
 {
   "semantic": {
-    "primary": {
-      "light": {
-        "type": "color",
-        "value": "{core.color.red.100}"
+    "color": {
+      "primary": {
+        "light": {
+          "type": "color",
+          "value": "{core.color.red.50}"
+        },
+        "medium": {
+          "type": "color",
+          "value": "#db0f16"
+        },
+        "dark": {
+          "type": "color",
+          "value": "#a10001"
+        }
       },
-      "medium": {
-        "type": "color",
-        "value": "#db0f16"
+      "secondary": {
+        "light": {
+          "type": "color",
+          "value": "{core.color.green.50}"
+        },
+        "medium": {
+          "type": "color",
+          "value": "{core.color.green.700}"
+        },
+        "dark": {
+          "type": "color",
+          "value": "{core.color.green.900}"
+        }
       },
-      "dark": {
-        "type": "color",
-        "value": "#a10001"
+      "disabled": {
+        "background": {
+          "type": "color",
+          "value": "{core.color.gray.light}"
+        },
+        "color": {
+          "type": "color",
+          "value": "{core.color.gray.medium}"
+        }
       }
     }
   }

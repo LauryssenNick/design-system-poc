@@ -15,6 +15,7 @@ export default class Button extends LitElement {
 
   @property() name: string;
   @property() type: 'button' | 'submit' | 'reset' = 'button';
+  @property() variant: 'primary' | 'secondary' = 'primary';
   internals: ElementInternals;
 
   constructor() {
@@ -43,7 +44,8 @@ export default class Button extends LitElement {
     return html`<button
       class=${classMap({
         button: true,
-        'button--primary': true,
+        'button--primary': this.variant === 'primary',
+        'button--secondary': this.variant === 'secondary',
         'button--disabled': this.disabled,
       })}
       name=${ifDefined(this.name)}

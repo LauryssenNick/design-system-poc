@@ -4,8 +4,8 @@
 
 There are three levels of tokens that we use in our Hexagon design system.
 
-1. Base tokens
-2. Alias tokens
+1. Core tokens
+2. Semantic tokens
 3. Component tokens
 
 ### Core Tokens
@@ -19,7 +19,7 @@ These are tokens that consume the core tokens and use them to describe the purpo
 
 ### Component Tokens
 
-Here we use the alias tokens and tie them to a specific component value.
+Here we use the semantic tokens and tie them to a specific component value.
 
 ## Token Names
 
@@ -42,12 +42,12 @@ This means that all our tokens will start with:
 
 ### Level
 
-To make it clear which kind of token it is we add the level to it.
+To make it clear which kind of token it is we add the level to it. Either `core`, `semantic` or the name of the component e.g. `button`
 
 ```
 --ktn-core
 --ktn-semantic
---ktn-component
+--ktn-button
 ```
 
 ### Type
