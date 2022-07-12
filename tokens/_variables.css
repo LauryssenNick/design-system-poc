@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Jun 2022 11:57:02 GMT
+ * Generated on Tue, 14 Jun 2022 12:09:31 GMT
  */
 
 :root {
-  --ktn-button-primary-background: #db0f16;
+  --ktn-button-primary-background: #bada55;
   --ktn-button-primary-padding-horizontal: 1rem;
   --ktn-button-primary-padding-vertical: 0.75rem;
   --ktn-button-primary-border-radius: 0.25rem;
@@ -17,7 +17,7 @@
   --ktn-button-disabled-background: #eeeeee;
   --ktn-button-disabled-color: #9e9e9e;
   --ktn-color-primary-light: #db0f16;
-  --ktn-color-primary-medium: #db0f16;
+  --ktn-color-primary-medium: #bada55;
   --ktn-color-primary-dark: #a10000;
   --ktn-color-gray-light: #eeeeee;
   --ktn-color-gray-medium: #9e9e9e;
