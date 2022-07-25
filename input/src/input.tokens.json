@@ -53,6 +53,12 @@
         "type": "color",
         "value": "{color.gray.medium}"
       }
+    },
+    "help-text": {
+      "color": {
+        "type": "color",
+        "value": "{color.gray.medium}"
+      }
     }
   }
 }

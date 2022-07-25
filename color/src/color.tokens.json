@@ -36,6 +36,28 @@
     "black": {
       "type": "color",
       "value": "#000000"
+    },
+    "status": {
+      "error": {
+        "type": "color",
+        "value": "#D32F2F"
+      },
+      "success": {
+        "type": "color",
+        "value": "#388E3C"
+      },
+      "warning": {
+        "type": "color",
+        "value": "#F57C00"
+      },
+      "info": {
+        "type": "color",
+        "value": "#1976D2"
+      },
+      "neutral": {
+        "type": "color",
+        "value": "#616161"
+      }
     }
   }
 }

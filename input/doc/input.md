@@ -36,7 +36,8 @@ Custom Events:
 ## Primary input
 
 ```js preview-story
-export const base = () => html` <ktn-input></ktn-input> `;
+export const base = () =>
+  html` <ktn-input label="Name" help-text="Enter your name"></ktn-input> `;
 ```
 
 ## Disabled input

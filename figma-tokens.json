@@ -513,6 +513,28 @@
           "2": "color"
         }
       }
+    },
+    "help-text": {
+      "color": {
+        "type": "color",
+        "value": "{color.gray.medium}",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.gray.medium}"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "help-text",
+          "item": "color"
+        },
+        "path": {
+          "0": "input",
+          "1": "help-text",
+          "2": "color"
+        }
+      }
     }
   },
   "global": {
@@ -675,6 +697,108 @@
         "path": {
           "0": "color",
           "1": "black"
+        }
+      },
+      "status": {
+        "error": {
+          "type": "color",
+          "value": "#d32f2f",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#D32F2F"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "status",
+            "item": "error"
+          },
+          "path": {
+            "0": "color",
+            "1": "status",
+            "2": "error"
+          }
+        },
+        "success": {
+          "type": "color",
+          "value": "#388e3c",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#388E3C"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "status",
+            "item": "success"
+          },
+          "path": {
+            "0": "color",
+            "1": "status",
+            "2": "success"
+          }
+        },
+        "warning": {
+          "type": "color",
+          "value": "#f57c00",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#F57C00"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "status",
+            "item": "warning"
+          },
+          "path": {
+            "0": "color",
+            "1": "status",
+            "2": "warning"
+          }
+        },
+        "info": {
+          "type": "color",
+          "value": "#1976d2",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#1976D2"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "status",
+            "item": "info"
+          },
+          "path": {
+            "0": "color",
+            "1": "status",
+            "2": "info"
+          }
+        },
+        "neutral": {
+          "type": "color",
+          "value": "#616161",
+          "filePath": "color/src/color.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#616161"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "status",
+            "item": "neutral"
+          },
+          "path": {
+            "0": "color",
+            "1": "status",
+            "2": "neutral"
+          }
         }
       }
     },
