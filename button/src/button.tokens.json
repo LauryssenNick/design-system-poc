@@ -5,6 +5,10 @@
         "type": "color",
         "value": "{semantic.color.primary.medium}"
       },
+      "color": {
+        "type": "color",
+        "value": "{core.color.white}"
+      },
       "padding": {
         "horizontal": {
           "type": "spacing",
@@ -56,6 +60,10 @@
       "background": {
         "type": "color",
         "value": "{semantic.color.secondary.medium}"
+      },
+      "color": {
+        "type": "color",
+        "value": "{core.color.white}"
       },
       "padding": {
         "horizontal": {

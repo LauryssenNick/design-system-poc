@@ -36,10 +36,6 @@
       "8": {
         "type": "spacing",
         "value": "2rem"
-      },
-      "9": {
-        "type": "spacing",
-        "value": "2.25rem"
       }
     }
   }

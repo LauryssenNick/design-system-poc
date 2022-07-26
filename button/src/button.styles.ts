@@ -29,13 +29,13 @@ export default css`
 
   .button--primary {
     background-color: var(--ktn-button-primary-background);
-    color: #fff;
+    color: var(--ktn-button-primary-color);
     border-color: var(--ktn-button-primary-border-color);
   }
 
   .button--secondary {
     background-color: var(--ktn-button-secondary-background);
-    color: #fff;
+    color: var(--ktn-button-secondary-color);
     border-color: var(--ktn-button-secondary-border-color);
   }
 
