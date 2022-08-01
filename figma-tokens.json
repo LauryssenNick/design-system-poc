@@ -1,4 +1,630 @@
 {
+  "core": {
+    "border": {
+      "radius": {
+        "none": {
+          "type": "border",
+          "value": "0",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "border",
+            "value": "0"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "none"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "none"
+          }
+        },
+        "base": {
+          "type": "border",
+          "value": "0.25rem",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "border",
+            "value": "0.25rem"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "base"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "base"
+          }
+        },
+        "full": {
+          "type": "border",
+          "value": "9999px",
+          "filePath": "border-radius/src/border-radius.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "border",
+            "value": "9999px"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "border",
+            "item": "radius",
+            "subitem": "full"
+          },
+          "path": {
+            "0": "core",
+            "1": "border",
+            "2": "radius",
+            "3": "full"
+          }
+        }
+      }
+    },
+    "color": {
+      "gray": {
+        "light": {
+          "type": "color",
+          "value": "#eeeeee",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#eeeeee"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "gray",
+            "subitem": "light"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "gray",
+            "3": "light"
+          }
+        },
+        "medium": {
+          "type": "color",
+          "value": "#9e9e9e",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#9e9e9e"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "gray",
+            "subitem": "medium"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "gray",
+            "3": "medium"
+          }
+        },
+        "dark": {
+          "type": "color",
+          "value": "#616161",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#616161"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "gray",
+            "subitem": "dark"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "gray",
+            "3": "dark"
+          }
+        }
+      },
+      "red": {
+        "50": {
+          "type": "color",
+          "value": "#FFE5E6",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FFE5E6"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "50"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "50"
+          }
+        },
+        "100": {
+          "type": "color",
+          "value": "#FFCCCC",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FFCCCC"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "100"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "100"
+          }
+        },
+        "200": {
+          "type": "color",
+          "value": "#FF9999",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FF9999"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "200"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "200"
+          }
+        },
+        "300": {
+          "type": "color",
+          "value": "#FF6666",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FF6666"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "300"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "300"
+          }
+        },
+        "400": {
+          "type": "color",
+          "value": "#FF3333",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FF3333"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "400"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "400"
+          }
+        },
+        "500": {
+          "type": "color",
+          "value": "#FF0000",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#FF0000"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "500"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "500"
+          }
+        },
+        "600": {
+          "type": "color",
+          "value": "#CC0000",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#CC0000"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "600"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "600"
+          }
+        },
+        "700": {
+          "type": "color",
+          "value": "#990000",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#990000"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "700"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "700"
+          }
+        },
+        "800": {
+          "type": "color",
+          "value": "#660000",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#660000"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "800"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "800"
+          }
+        },
+        "900": {
+          "type": "color",
+          "value": "#330000",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#330000"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "red",
+            "subitem": "900"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "red",
+            "3": "900"
+          }
+        }
+      },
+      "green": {
+        "50": {
+          "type": "color",
+          "value": "#0D6E6C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#0D6E6C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "50"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "50"
+          }
+        },
+        "100": {
+          "type": "color",
+          "value": "#0D6E6C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#0D6E6C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "100"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "100"
+          }
+        },
+        "200": {
+          "type": "color",
+          "value": "#0D6E6C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#0D6E6C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "200"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "200"
+          }
+        },
+        "300": {
+          "type": "color",
+          "value": "#0D6E6C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#0D6E6C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "300"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "300"
+          }
+        },
+        "400": {
+          "type": "color",
+          "value": "#0D6E6C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#0D6E6C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "400"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "400"
+          }
+        },
+        "500": {
+          "type": "color",
+          "value": "#0D6E6C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#0D6E6C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "500"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "500"
+          }
+        },
+        "600": {
+          "type": "color",
+          "value": "#0D6E6C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#0D6E6C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "600"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "600"
+          }
+        },
+        "700": {
+          "type": "color",
+          "value": "#0D6E6C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#0D6E6C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "700"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "700"
+          }
+        },
+        "800": {
+          "type": "color",
+          "value": "#08403F",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#08403F"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "800"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "800"
+          }
+        },
+        "900": {
+          "type": "color",
+          "value": "#021212",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#021212"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "green",
+            "subitem": "900"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "green",
+            "3": "900"
+          }
+        }
+      },
+      "white": {
+        "type": "color",
+        "value": "#ffffff",
+        "filePath": "color/src/core.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "attributes": {
+          "category": "core",
+          "type": "color",
+          "item": "white"
+        },
+        "path": {
+          "0": "core",
+          "1": "color",
+          "2": "white"
+        }
+      },
+      "black": {
+        "type": "color",
+        "value": "#000000",
+        "filePath": "color/src/core.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "attributes": {
+          "category": "core",
+          "type": "color",
+          "item": "black"
+        },
+        "path": {
+          "0": "core",
+          "1": "color",
+          "2": "black"
+        }
+      }
+    }
+  },
   "button": {
     "primary": {
       "background": {
@@ -281,6 +907,192 @@
           "0": "button",
           "1": "disabled",
           "2": "color"
+        }
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "primary": {
+        "light": {
+          "type": "color",
+          "value": "{core.color.red.50}",
+          "filePath": "color/src/semantic.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.red.50}"
+          },
+          "attributes": {
+            "category": "semantic",
+            "type": "color",
+            "item": "primary",
+            "subitem": "light"
+          },
+          "path": {
+            "0": "semantic",
+            "1": "color",
+            "2": "primary",
+            "3": "light"
+          }
+        },
+        "medium": {
+          "type": "color",
+          "value": "#db0f16",
+          "filePath": "color/src/semantic.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#db0f16"
+          },
+          "attributes": {
+            "category": "semantic",
+            "type": "color",
+            "item": "primary",
+            "subitem": "medium"
+          },
+          "path": {
+            "0": "semantic",
+            "1": "color",
+            "2": "primary",
+            "3": "medium"
+          }
+        },
+        "dark": {
+          "type": "color",
+          "value": "#a10001",
+          "filePath": "color/src/semantic.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#a10001"
+          },
+          "attributes": {
+            "category": "semantic",
+            "type": "color",
+            "item": "primary",
+            "subitem": "dark"
+          },
+          "path": {
+            "0": "semantic",
+            "1": "color",
+            "2": "primary",
+            "3": "dark"
+          }
+        }
+      },
+      "secondary": {
+        "light": {
+          "type": "color",
+          "value": "{core.color.green.50}",
+          "filePath": "color/src/semantic.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.green.50}"
+          },
+          "attributes": {
+            "category": "semantic",
+            "type": "color",
+            "item": "secondary",
+            "subitem": "light"
+          },
+          "path": {
+            "0": "semantic",
+            "1": "color",
+            "2": "secondary",
+            "3": "light"
+          }
+        },
+        "medium": {
+          "type": "color",
+          "value": "{core.color.green.700}",
+          "filePath": "color/src/semantic.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.green.700}"
+          },
+          "attributes": {
+            "category": "semantic",
+            "type": "color",
+            "item": "secondary",
+            "subitem": "medium"
+          },
+          "path": {
+            "0": "semantic",
+            "1": "color",
+            "2": "secondary",
+            "3": "medium"
+          }
+        },
+        "dark": {
+          "type": "color",
+          "value": "{core.color.green.900}",
+          "filePath": "color/src/semantic.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.green.900}"
+          },
+          "attributes": {
+            "category": "semantic",
+            "type": "color",
+            "item": "secondary",
+            "subitem": "dark"
+          },
+          "path": {
+            "0": "semantic",
+            "1": "color",
+            "2": "secondary",
+            "3": "dark"
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "type": "color",
+          "value": "{core.color.gray.light}",
+          "filePath": "color/src/semantic.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.gray.light}"
+          },
+          "attributes": {
+            "category": "semantic",
+            "type": "color",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": {
+            "0": "semantic",
+            "1": "color",
+            "2": "disabled",
+            "3": "background"
+          }
+        },
+        "color": {
+          "type": "color",
+          "value": "{core.color.gray.medium}",
+          "filePath": "color/src/semantic.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.gray.medium}"
+          },
+          "attributes": {
+            "category": "semantic",
+            "type": "color",
+            "item": "disabled",
+            "subitem": "color"
+          },
+          "path": {
+            "0": "semantic",
+            "1": "color",
+            "2": "disabled",
+            "3": "color"
+          }
         }
       }
     }
