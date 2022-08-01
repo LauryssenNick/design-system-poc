@@ -2,7 +2,7 @@
   "input": {
     "background": {
       "type": "color",
-      "value": "{color.white}"
+      "value": "{core.color.white}"
     },
     "padding": {
       "horizontal": {
@@ -21,7 +21,7 @@
       },
       "color": {
         "type": "color",
-        "value": "{color.black}"
+        "value": "{core.color.black}"
       },
       "width": {
         "type": "sizing",
@@ -31,11 +31,11 @@
     "font": {
       "weight": {
         "type": "fontWeights",
-        "value": "{typography.weight.normal}"
+        "value": "{core.font.weight.normal}"
       },
       "family": {
         "type": "fontFamilies",
-        "value": "{typography.family}"
+        "value": "{core.font.family}"
       }
     },
     "letter": {
@@ -47,11 +47,11 @@
     "disabled": {
       "background": {
         "type": "color",
-        "value": "{color.gray.light}"
+        "value": "{semantic.color.disabled.background}"
       },
       "color": {
         "type": "color",
-        "value": "{color.gray.medium}"
+        "value": "{semantic.color.disabled.color}"
       }
     },
     "help-text": {

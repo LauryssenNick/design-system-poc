@@ -5,7 +5,6 @@ export default css`
     display: inline-block;
     position: relative;
     width: auto;
-    cursor: pointer;
   }
 
   .button {
@@ -19,16 +18,35 @@ export default css`
     user-select: none;
     white-space: nowrap;
     vertical-align: middle;
-    cursor: inherit;
-    border-radius: var(--ktn-button-primary-border-radius);
-    padding: var(--ktn-spacing-s1) var(--ktn-spacing-s2);
-    font-family: var(--ktn-typography-family);
+    border-radius: var(--ktn-button-border-radius);
+    padding: var(--ktn-core-spacing-1) var(--ktn-core-spacing-2);
+    font-family: var(--ktn-button-font-family);
+  }
+
+  .button:hover {
+    cursor: pointer;
   }
 
   .button--primary {
     background-color: var(--ktn-button-primary-background);
-    color: #fff;
-    border-color: var(--ktn-color-primary-medium);
+    color: var(--ktn-button-primary-color);
+    border-color: var(--ktn-button-primary-border-color);
+  }
+
+  .button--secondary {
+    background-color: var(--ktn-button-secondary-background);
+    color: var(--ktn-button-secondary-color);
+    border-color: var(--ktn-button-secondary-border-color);
+  }
+
+  .button--primary:hover {
+    background-color: var(--ktn-button-primary-hover-background);
+    border-color: var(--ktn-button-primary-hover-border-color);
+  }
+
+  .button--secondary:hover {
+    background-color: var(--ktn-button-secondary-hover-background);
+    border-color: var(--ktn-button-secondary-hover-border-color);
   }
 
   .button--disabled {
@@ -36,11 +54,6 @@ export default css`
     border-color: var(--ktn-button-disabled-background);
     color: var(--ktn-button-disabled-color);
     pointer-events: none;
-    cursor: not-allowed;
-  }
-
-  .button--primary:hover {
-    background-color: var(--ktn-color-primary-dark);
-    border-color: var(--ktn-color-primary-dark);
+    cursor: initial;
   }
 `;
