@@ -4,12 +4,6 @@
   "description": "",
   "license": "MIT",
   "homepage": "{{ homepage }}",
-  "files": [
-    "/button",
-    "/input",
-    "/tokens",
-    "index.js"
-  ],
   "scripts": {
     "serve": "npx backlight@latest serve VJrhAYBCYnEHBZLWJHUV --open --verbose"
   },

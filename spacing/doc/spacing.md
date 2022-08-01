@@ -6,5 +6,7 @@ import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 ```
 
 ```html preview-story
-<dockit-css-showcases css-props-prefix="--ktn-spacing"></dockit-css-showcases>
+<dockit-css-showcases
+  css-props-prefix="--ktn-core-spacing"
+></dockit-css-showcases>
 ```
