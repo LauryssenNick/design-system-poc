@@ -1,0 +1,63 @@
+{
+  "color": {
+    "tokenset": "global",
+    "primary": {
+      "light": {
+        "type": "color",
+        "value": "#db0f16"
+      },
+      "medium": {
+        "type": "color",
+        "value": "#db0f16"
+      },
+      "dark": {
+        "type": "color",
+        "value": "#a10000"
+      }
+    },
+    "gray": {
+      "light": {
+        "type": "color",
+        "value": "#eeeeee"
+      },
+      "medium": {
+        "type": "color",
+        "value": "#9e9e9e"
+      },
+      "dark": {
+        "type": "color",
+        "value": "#616161"
+      }
+    },
+    "white": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "status": {
+      "error": {
+        "type": "color",
+        "value": "#D32F2F"
+      },
+      "success": {
+        "type": "color",
+        "value": "#388E3C"
+      },
+      "warning": {
+        "type": "color",
+        "value": "#F57C00"
+      },
+      "info": {
+        "type": "color",
+        "value": "#1976D2"
+      },
+      "neutral": {
+        "type": "color",
+        "value": "#616161"
+      }
+    }
+  }
+}
