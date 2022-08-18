@@ -57,7 +57,7 @@
     "help-text": {
       "color": {
         "type": "color",
-        "value": "{color.gray.medium}"
+        "value": "{core.color.gray.medium}"
       }
     }
   }

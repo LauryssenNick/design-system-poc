@@ -1,5 +1,15 @@
 {
   "button": {
+    "padding": {
+      "horizontal": {
+        "type": "spacing",
+        "value": "{core.spacing.3}"
+      },
+      "vertical": {
+        "type": "spacing",
+        "value": "{core.spacing.2}"
+      }
+    },
     "primary": {
       "background": {
         "type": "color",
@@ -8,16 +18,6 @@
       "color": {
         "type": "color",
         "value": "{core.color.white}"
-      },
-      "padding": {
-        "horizontal": {
-          "type": "spacing",
-          "value": "1rem"
-        },
-        "vertical": {
-          "type": "spacing",
-          "value": "0.75rem"
-        }
       },
       "border": {
         "radius": {
@@ -134,6 +134,14 @@
       "family": {
         "type": "fontFamilies",
         "value": "{core.font.family}"
+      },
+      "size": {
+        "type": "fontSizes",
+        "value": "{core.font.size.6}"
+      },
+      "weight": {
+        "type": "fontWeights",
+        "value": "{core.font.weight.medium}"
       }
     },
     "border": {

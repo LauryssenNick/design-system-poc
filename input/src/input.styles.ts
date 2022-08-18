@@ -6,20 +6,28 @@ export default css`
     box-sizing: border-box;
   }
 
-  .form-control .form-control__label {
+  :host::part(label) {
+    color: var(--ktn-color-status-error);
+  }
+
+  .input-root .input-root-label {
     display: none;
   }
 
-  .form-control .form-control__help-text {
+  .input-root .input-root-help-text {
     display: none;
   }
 
-  .form-control--has-label .form-control__label {
+  .input-root--error::part(label) {
+    color: var(--ktn-color-status-error);
+  }
+
+  .input-root--has-label::part(label) {
     display: block;
     color: var(--ktn-input-help-text-color);
   }
 
-  .form-control--has-help-text .form-control__help-text {
+  .input-root--has-help-text::part(help-text) {
     display: block;
     color: var(--ktn-input-help-text-color);
     font-size: var(--ktn-typography-size-xs);
@@ -58,7 +66,7 @@ export default css`
     box-shadow: none;
   }
 
-  .input--invalid {
+  .input--error {
     border-color: var(--ktn-color-status-error);
   }
 `;

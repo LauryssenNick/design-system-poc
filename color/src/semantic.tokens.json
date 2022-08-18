@@ -1,5 +1,6 @@
 {
   "semantic": {
+    "name": "semantic",
     "color": {
       "primary": {
         "light": {
@@ -8,11 +9,11 @@
         },
         "medium": {
           "type": "color",
-          "value": "#db0f16"
+          "value": "{core.color.red.600}"
         },
         "dark": {
           "type": "color",
-          "value": "#a10001"
+          "value": "{core.color.red.700}"
         }
       },
       "secondary": {

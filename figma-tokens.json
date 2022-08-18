@@ -622,6 +622,118 @@
           "1": "color",
           "2": "black"
         }
+      },
+      "status": {
+        "error": {
+          "type": "color",
+          "value": "#D32F2F",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#D32F2F"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "status",
+            "subitem": "error"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "status",
+            "3": "error"
+          }
+        },
+        "success": {
+          "type": "color",
+          "value": "#388E3C",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#388E3C"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "status",
+            "subitem": "success"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "status",
+            "3": "success"
+          }
+        },
+        "warning": {
+          "type": "color",
+          "value": "#F57C00",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#F57C00"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "status",
+            "subitem": "warning"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "status",
+            "3": "warning"
+          }
+        },
+        "info": {
+          "type": "color",
+          "value": "#1976D2",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#1976D2"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "status",
+            "subitem": "info"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "status",
+            "3": "info"
+          }
+        },
+        "neutral": {
+          "type": "color",
+          "value": "#616161",
+          "filePath": "color/src/core.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#616161"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "status",
+            "subitem": "neutral"
+          },
+          "path": {
+            "0": "core",
+            "1": "color",
+            "2": "status",
+            "3": "neutral"
+          }
+        }
       }
     },
     "spacing": {
@@ -667,12 +779,12 @@
       },
       "2": {
         "type": "spacing",
-        "value": "0.5rem",
+        "value": "0.25rem",
         "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
           "type": "spacing",
-          "value": "0.5rem"
+          "value": "0.25rem"
         },
         "attributes": {
           "category": "core",
@@ -687,12 +799,12 @@
       },
       "3": {
         "type": "spacing",
-        "value": "0.75rem",
+        "value": "0.5rem",
         "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
           "type": "spacing",
-          "value": "0.75rem"
+          "value": "0.5rem"
         },
         "attributes": {
           "category": "core",
@@ -707,12 +819,12 @@
       },
       "4": {
         "type": "spacing",
-        "value": "1rem",
+        "value": "0.75rem",
         "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
           "type": "spacing",
-          "value": "1rem"
+          "value": "0.75rem"
         },
         "attributes": {
           "category": "core",
@@ -727,12 +839,12 @@
       },
       "5": {
         "type": "spacing",
-        "value": "1.25rem",
+        "value": "1rem",
         "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
           "type": "spacing",
-          "value": "1.25rem"
+          "value": "1rem"
         },
         "attributes": {
           "category": "core",
@@ -747,12 +859,12 @@
       },
       "6": {
         "type": "spacing",
-        "value": "1.5rem",
+        "value": "1.25rem",
         "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
           "type": "spacing",
-          "value": "1.5rem"
+          "value": "1.25rem"
         },
         "attributes": {
           "category": "core",
@@ -767,12 +879,12 @@
       },
       "7": {
         "type": "spacing",
-        "value": "1.75rem",
+        "value": "1.5rem",
         "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
           "type": "spacing",
-          "value": "1.75rem"
+          "value": "1.5rem"
         },
         "attributes": {
           "category": "core",
@@ -787,12 +899,12 @@
       },
       "8": {
         "type": "spacing",
-        "value": "2rem",
+        "value": "1.75rem",
         "filePath": "spacing/src/spacing.tokens.json",
         "isSource": true,
         "original": {
           "type": "spacing",
-          "value": "2rem"
+          "value": "1.75rem"
         },
         "attributes": {
           "category": "core",
@@ -803,6 +915,26 @@
           "0": "core",
           "1": "spacing",
           "2": "8"
+        }
+      },
+      "9": {
+        "type": "spacing",
+        "value": "2rem",
+        "filePath": "spacing/src/spacing.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "2rem"
+        },
+        "attributes": {
+          "category": "core",
+          "type": "spacing",
+          "item": "9"
+        },
+        "path": {
+          "0": "core",
+          "1": "spacing",
+          "2": "9"
         }
       }
     },
@@ -1032,6 +1164,48 @@
     }
   },
   "button": {
+    "padding": {
+      "horizontal": {
+        "type": "spacing",
+        "value": "{core.spacing.3}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "{core.spacing.3}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "padding",
+          "item": "horizontal"
+        },
+        "path": {
+          "0": "button",
+          "1": "padding",
+          "2": "horizontal"
+        }
+      },
+      "vertical": {
+        "type": "spacing",
+        "value": "{core.spacing.2}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "spacing",
+          "value": "{core.spacing.2}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "padding",
+          "item": "vertical"
+        },
+        "path": {
+          "0": "button",
+          "1": "padding",
+          "2": "vertical"
+        }
+      }
+    },
     "primary": {
       "background": {
         "type": "color",
@@ -1071,52 +1245,6 @@
           "0": "button",
           "1": "primary",
           "2": "color"
-        }
-      },
-      "padding": {
-        "horizontal": {
-          "type": "spacing",
-          "value": "1rem",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "spacing",
-            "value": "1rem"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "primary",
-            "item": "padding",
-            "subitem": "horizontal"
-          },
-          "path": {
-            "0": "button",
-            "1": "primary",
-            "2": "padding",
-            "3": "horizontal"
-          }
-        },
-        "vertical": {
-          "type": "spacing",
-          "value": "0.75rem",
-          "filePath": "button/src/button.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "spacing",
-            "value": "0.75rem"
-          },
-          "attributes": {
-            "category": "button",
-            "type": "primary",
-            "item": "padding",
-            "subitem": "vertical"
-          },
-          "path": {
-            "0": "button",
-            "1": "primary",
-            "2": "padding",
-            "3": "vertical"
-          }
         }
       },
       "border": {
@@ -1640,6 +1768,46 @@
           "1": "font",
           "2": "family"
         }
+      },
+      "size": {
+        "type": "fontSizes",
+        "value": "{core.font.size.6}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "fontSizes",
+          "value": "{core.font.size.6}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "font",
+          "item": "size"
+        },
+        "path": {
+          "0": "button",
+          "1": "font",
+          "2": "size"
+        }
+      },
+      "weight": {
+        "type": "fontWeights",
+        "value": "{core.font.weight.medium}",
+        "filePath": "button/src/button.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "fontWeights",
+          "value": "{core.font.weight.medium}"
+        },
+        "attributes": {
+          "category": "button",
+          "type": "font",
+          "item": "weight"
+        },
+        "path": {
+          "0": "button",
+          "1": "font",
+          "2": "weight"
+        }
       }
     },
     "border": {
@@ -1690,12 +1858,12 @@
         },
         "medium": {
           "type": "color",
-          "value": "#db0f16",
+          "value": "{core.color.red.600}",
           "filePath": "color/src/semantic.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#db0f16"
+            "value": "{core.color.red.600}"
           },
           "attributes": {
             "category": "semantic",
@@ -1712,12 +1880,12 @@
         },
         "dark": {
           "type": "color",
-          "value": "#a10001",
+          "value": "{core.color.red.700}",
           "filePath": "color/src/semantic.tokens.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "#a10001"
+            "value": "{core.color.red.700}"
           },
           "attributes": {
             "category": "semantic",
@@ -2081,12 +2249,12 @@
     "help-text": {
       "color": {
         "type": "color",
-        "value": "{color.gray.medium}",
+        "value": "{core.color.gray.medium}",
         "filePath": "input/src/input.tokens.json",
         "isSource": true,
         "original": {
           "type": "color",
-          "value": "{color.gray.medium}"
+          "value": "{core.color.gray.medium}"
         },
         "attributes": {
           "category": "input",
@@ -2097,394 +2265,6 @@
           "0": "input",
           "1": "help-text",
           "2": "color"
-        }
-      }
-    }
-  },
-  "global": {
-    "color": {
-      "primary": {
-        "light": {
-          "type": "color",
-          "value": "#db0f16",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#db0f16"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "primary",
-            "item": "light"
-          },
-          "path": {
-            "0": "color",
-            "1": "primary",
-            "2": "light"
-          }
-        },
-        "medium": {
-          "type": "color",
-          "value": "#db0f16",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#db0f16"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "primary",
-            "item": "medium"
-          },
-          "path": {
-            "0": "color",
-            "1": "primary",
-            "2": "medium"
-          }
-        },
-        "dark": {
-          "type": "color",
-          "value": "#a10000",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#a10000"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "primary",
-            "item": "dark"
-          },
-          "path": {
-            "0": "color",
-            "1": "primary",
-            "2": "dark"
-          }
-        }
-      },
-      "gray": {
-        "light": {
-          "type": "color",
-          "value": "#eeeeee",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#eeeeee"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "gray",
-            "item": "light"
-          },
-          "path": {
-            "0": "color",
-            "1": "gray",
-            "2": "light"
-          }
-        },
-        "medium": {
-          "type": "color",
-          "value": "#9e9e9e",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#9e9e9e"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "gray",
-            "item": "medium"
-          },
-          "path": {
-            "0": "color",
-            "1": "gray",
-            "2": "medium"
-          }
-        },
-        "dark": {
-          "type": "color",
-          "value": "#616161",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#616161"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "gray",
-            "item": "dark"
-          },
-          "path": {
-            "0": "color",
-            "1": "gray",
-            "2": "dark"
-          }
-        }
-      },
-      "white": {
-        "type": "color",
-        "value": "#ffffff",
-        "filePath": "color/src/color.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "#ffffff"
-        },
-        "attributes": {
-          "category": "color",
-          "type": "white"
-        },
-        "path": {
-          "0": "color",
-          "1": "white"
-        }
-      },
-      "black": {
-        "type": "color",
-        "value": "#000000",
-        "filePath": "color/src/color.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "#000000"
-        },
-        "attributes": {
-          "category": "color",
-          "type": "black"
-        },
-        "path": {
-          "0": "color",
-          "1": "black"
-        }
-      },
-      "status": {
-        "error": {
-          "type": "color",
-          "value": "#d32f2f",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#D32F2F"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "error"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "error"
-          }
-        },
-        "success": {
-          "type": "color",
-          "value": "#388e3c",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#388E3C"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "success"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "success"
-          }
-        },
-        "warning": {
-          "type": "color",
-          "value": "#f57c00",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#F57C00"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "warning"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "warning"
-          }
-        },
-        "info": {
-          "type": "color",
-          "value": "#1976d2",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#1976D2"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "info"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "info"
-          }
-        },
-        "neutral": {
-          "type": "color",
-          "value": "#616161",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#616161"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "neutral"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "neutral"
-          }
-        }
-      }
-    },
-    "spacing": {
-      "s0": {
-        "type": "spacing",
-        "value": "0px",
-        "filePath": "spacing/src/spacing.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "spacing",
-          "value": "0px"
-        },
-        "attributes": {
-          "category": "spacing",
-          "type": "s0"
-        },
-        "path": {
-          "0": "spacing",
-          "1": "s0"
-        }
-      },
-      "status": {
-        "error": {
-          "type": "color",
-          "value": "#d32f2f",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#D32F2F"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "error"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "error"
-          }
-        },
-        "success": {
-          "type": "color",
-          "value": "#388e3c",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#388E3C"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "success"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "success"
-          }
-        },
-        "warning": {
-          "type": "color",
-          "value": "#f57c00",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#F57C00"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "warning"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "warning"
-          }
-        },
-        "info": {
-          "type": "color",
-          "value": "#1976d2",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#1976D2"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "info"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "info"
-          }
-        },
-        "neutral": {
-          "type": "color",
-          "value": "#616161",
-          "filePath": "color/src/color.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#616161"
-          },
-          "attributes": {
-            "category": "color",
-            "type": "status",
-            "item": "neutral"
-          },
-          "path": {
-            "0": "color",
-            "1": "status",
-            "2": "neutral"
-          }
         }
       }
     }
