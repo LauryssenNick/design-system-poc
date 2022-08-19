@@ -1,6 +1,6 @@
 {
   "core": {
-    "tokenset": "core",
+    "tokenset": "global",
     "spacing": {
       "0": {
         "type": "spacing",
