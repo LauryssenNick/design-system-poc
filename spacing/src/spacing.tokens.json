@@ -1,46 +1,47 @@
 {
   "core": {
-    "tokenset": "core",
-    "spacing": {
-      "0": {
-        "type": "spacing",
-        "value": "0rem"
-      },
-      "1": {
-        "type": "spacing",
-        "value": "0.125rem"
-      },
-      "2": {
-        "type": "spacing",
-        "value": "0.25rem"
-      },
-      "3": {
-        "type": "spacing",
-        "value": "0.5rem"
-      },
-      "4": {
-        "type": "spacing",
-        "value": "0.75rem"
-      },
-      "5": {
-        "type": "spacing",
-        "value": "1rem"
-      },
-      "6": {
-        "type": "spacing",
-        "value": "1.25rem"
-      },
-      "7": {
-        "type": "spacing",
-        "value": "1.5rem"
-      },
-      "8": {
-        "type": "spacing",
-        "value": "1.75rem"
-      },
-      "9": {
-        "type": "spacing",
-        "value": "2rem"
+    "core": {
+      "spacing": {
+        "0": {
+          "type": "spacing",
+          "value": "0rem"
+        },
+        "1": {
+          "type": "spacing",
+          "value": "0.125rem"
+        },
+        "2": {
+          "type": "spacing",
+          "value": "0.25rem"
+        },
+        "3": {
+          "type": "spacing",
+          "value": "0.5rem"
+        },
+        "4": {
+          "type": "spacing",
+          "value": "0.75rem"
+        },
+        "5": {
+          "type": "spacing",
+          "value": "1rem"
+        },
+        "6": {
+          "type": "spacing",
+          "value": "1.25rem"
+        },
+        "7": {
+          "type": "spacing",
+          "value": "1.5rem"
+        },
+        "8": {
+          "type": "spacing",
+          "value": "1.75rem"
+        },
+        "9": {
+          "type": "spacing",
+          "value": "2rem"
+        }
       }
     }
   }

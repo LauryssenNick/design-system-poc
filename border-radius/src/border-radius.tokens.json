@@ -1,19 +1,21 @@
 {
   "core": {
-    "border": {
-      "tokenset": "core",
-      "radius": {
-        "none": {
-          "type": "border",
-          "value": "0"
-        },
-        "base": {
-          "type": "border",
-          "value": "0.25rem"
-        },
-        "full": {
-          "type": "border",
-          "value": "9999px"
+    "core": {
+      "border": {
+        "tokenset": "core",
+        "radius": {
+          "none": {
+            "type": "border",
+            "value": "0"
+          },
+          "base": {
+            "type": "border",
+            "value": "0.25rem"
+          },
+          "full": {
+            "type": "border",
+            "value": "9999px"
+          }
         }
       }
     }
