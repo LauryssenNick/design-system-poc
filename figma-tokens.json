@@ -667,192 +667,6 @@
       }
     }
   },
-  "semantic": {
-    "color": {
-      "primary": {
-        "light": {
-          "type": "color",
-          "value": "{core.color.red.50}",
-          "filePath": "color/src/semantic.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.red.50}"
-          },
-          "attributes": {
-            "category": "semantic",
-            "type": "color",
-            "item": "primary",
-            "subitem": "light"
-          },
-          "path": {
-            "0": "semantic",
-            "1": "color",
-            "2": "primary",
-            "3": "light"
-          }
-        },
-        "medium": {
-          "type": "color",
-          "value": "{core.color.red.600}",
-          "filePath": "color/src/semantic.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.red.600}"
-          },
-          "attributes": {
-            "category": "semantic",
-            "type": "color",
-            "item": "primary",
-            "subitem": "medium"
-          },
-          "path": {
-            "0": "semantic",
-            "1": "color",
-            "2": "primary",
-            "3": "medium"
-          }
-        },
-        "dark": {
-          "type": "color",
-          "value": "{core.color.red.700}",
-          "filePath": "color/src/semantic.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.red.700}"
-          },
-          "attributes": {
-            "category": "semantic",
-            "type": "color",
-            "item": "primary",
-            "subitem": "dark"
-          },
-          "path": {
-            "0": "semantic",
-            "1": "color",
-            "2": "primary",
-            "3": "dark"
-          }
-        }
-      },
-      "secondary": {
-        "light": {
-          "type": "color",
-          "value": "{core.color.green.50}",
-          "filePath": "color/src/semantic.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.green.50}"
-          },
-          "attributes": {
-            "category": "semantic",
-            "type": "color",
-            "item": "secondary",
-            "subitem": "light"
-          },
-          "path": {
-            "0": "semantic",
-            "1": "color",
-            "2": "secondary",
-            "3": "light"
-          }
-        },
-        "medium": {
-          "type": "color",
-          "value": "{core.color.green.700}",
-          "filePath": "color/src/semantic.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.green.700}"
-          },
-          "attributes": {
-            "category": "semantic",
-            "type": "color",
-            "item": "secondary",
-            "subitem": "medium"
-          },
-          "path": {
-            "0": "semantic",
-            "1": "color",
-            "2": "secondary",
-            "3": "medium"
-          }
-        },
-        "dark": {
-          "type": "color",
-          "value": "{core.color.green.900}",
-          "filePath": "color/src/semantic.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.green.900}"
-          },
-          "attributes": {
-            "category": "semantic",
-            "type": "color",
-            "item": "secondary",
-            "subitem": "dark"
-          },
-          "path": {
-            "0": "semantic",
-            "1": "color",
-            "2": "secondary",
-            "3": "dark"
-          }
-        }
-      },
-      "disabled": {
-        "background": {
-          "type": "color",
-          "value": "{core.color.gray.light}",
-          "filePath": "color/src/semantic.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.gray.light}"
-          },
-          "attributes": {
-            "category": "semantic",
-            "type": "color",
-            "item": "disabled",
-            "subitem": "background"
-          },
-          "path": {
-            "0": "semantic",
-            "1": "color",
-            "2": "disabled",
-            "3": "background"
-          }
-        },
-        "color": {
-          "type": "color",
-          "value": "{core.color.gray.medium}",
-          "filePath": "color/src/semantic.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.gray.medium}"
-          },
-          "attributes": {
-            "category": "semantic",
-            "type": "color",
-            "item": "disabled",
-            "subitem": "color"
-          },
-          "path": {
-            "0": "semantic",
-            "1": "color",
-            "2": "disabled",
-            "3": "color"
-          }
-        }
-      }
-    }
-  },
   "input": {
     "background": {
       "type": "color",
@@ -1110,12 +924,12 @@
       "border": {
         "radius": {
           "none": {
-            "type": "border",
+            "type": "borderRadius",
             "value": "0",
             "filePath": "border-radius/src/border-radius.tokens.json",
             "isSource": true,
             "original": {
-              "type": "border",
+              "type": "borderRadius",
               "value": "0"
             },
             "attributes": {
@@ -1132,12 +946,12 @@
             }
           },
           "base": {
-            "type": "border",
+            "type": "borderRadius",
             "value": "0.25rem",
             "filePath": "border-radius/src/border-radius.tokens.json",
             "isSource": true,
             "original": {
-              "type": "border",
+              "type": "borderRadius",
               "value": "0.25rem"
             },
             "attributes": {
@@ -1154,12 +968,12 @@
             }
           },
           "full": {
-            "type": "border",
+            "type": "borderRadius",
             "value": "9999px",
             "filePath": "border-radius/src/border-radius.tokens.json",
             "isSource": true,
             "original": {
-              "type": "border",
+              "type": "borderRadius",
               "value": "9999px"
             },
             "attributes": {

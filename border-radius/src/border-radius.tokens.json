@@ -4,15 +4,15 @@
     "border": {
       "radius": {
         "none": {
-          "type": "border",
+          "type": "borderRadius",
           "value": "0"
         },
         "base": {
-          "type": "border",
+          "type": "borderRadius",
           "value": "0.25rem"
         },
         "full": {
-          "type": "border",
+          "type": "borderRadius",
           "value": "9999px"
         }
       }

@@ -1,5 +1,6 @@
 {
   "semantic": {
+    "tokenset": "semantic",
     "color": {
       "primary": {
         "light": {
