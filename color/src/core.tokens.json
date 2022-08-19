@@ -1,6 +1,6 @@
 {
+  "tokenset": "core",
   "core": {
-    "name": "core",
     "color": {
       "gray": {
         "light": {
