@@ -1,50 +1,49 @@
 {
   "core": {
-    "core": {
-      "font": {
-        "family": {
-          "type": "fontFamilies",
-          "value": "'Roboto', 'Helvetica', 'Arial', sans-serif"
+    "tokenset": "core",
+    "font": {
+      "family": {
+        "type": "fontFamilies",
+        "value": "'Roboto', 'Helvetica', 'Arial', sans-serif"
+      },
+      "weight": {
+        "normal": {
+          "type": "fontWeights",
+          "value": 400
         },
-        "weight": {
-          "normal": {
-            "type": "fontWeights",
-            "value": 400
-          },
-          "medium": {
-            "type": "fontWeights",
-            "value": 500
-          }
+        "medium": {
+          "type": "fontWeights",
+          "value": 500
+        }
+      },
+      "size": {
+        "1": {
+          "type": "fontSizes",
+          "value": "3.75rem"
         },
-        "size": {
-          "1": {
-            "type": "fontSizes",
-            "value": "3.75rem"
-          },
-          "2": {
-            "type": "fontSizes",
-            "value": "3rem"
-          },
-          "3": {
-            "type": "fontSizes",
-            "value": "2.25rem"
-          },
-          "4": {
-            "type": "fontSizes",
-            "value": "1.5rem"
-          },
-          "5": {
-            "type": "fontSizes",
-            "value": "1.125rem"
-          },
-          "6": {
-            "type": "fontSizes",
-            "value": "0.938rem"
-          },
-          "7": {
-            "type": "fontSizes",
-            "value": "0.75rem"
-          }
+        "2": {
+          "type": "fontSizes",
+          "value": "3rem"
+        },
+        "3": {
+          "type": "fontSizes",
+          "value": "2.25rem"
+        },
+        "4": {
+          "type": "fontSizes",
+          "value": "1.5rem"
+        },
+        "5": {
+          "type": "fontSizes",
+          "value": "1.125rem"
+        },
+        "6": {
+          "type": "fontSizes",
+          "value": "0.938rem"
+        },
+        "7": {
+          "type": "fontSizes",
+          "value": "0.75rem"
         }
       }
     }
