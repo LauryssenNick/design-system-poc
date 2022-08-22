@@ -1,5 +1,6 @@
 {
   "input": {
+    "tokenset": "global",
     "background": {
       "type": "color",
       "value": "{core.color.white}"

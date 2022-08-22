@@ -1,5 +1,6 @@
 {
   "button": {
+    "tokenset": "global",
     "padding": {
       "horizontal": {
         "type": "spacing",
