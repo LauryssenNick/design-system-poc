@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Aug 2022 09:36:17 GMT
+ * Generated on Mon, 01 Aug 2022 10:02:11 GMT
  */
 
 :root {
@@ -78,6 +78,19 @@
   --ktn-button-disabled-color: #9e9e9e;
   --ktn-button-font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   --ktn-button-border-radius: 0.25rem;
+  --ktn-color-primary-light: #db0f16;
+  --ktn-color-primary-medium: #db0f16;
+  --ktn-color-primary-dark: #a10000;
+  --ktn-color-gray-light: #eeeeee;
+  --ktn-color-gray-medium: #9e9e9e;
+  --ktn-color-gray-dark: #616161;
+  --ktn-color-white: #ffffff;
+  --ktn-color-black: #000000;
+  --ktn-color-status-error: #d32f2f;
+  --ktn-color-status-success: #388e3c;
+  --ktn-color-status-warning: #f57c00;
+  --ktn-color-status-info: #1976d2;
+  --ktn-color-status-neutral: #616161;
   --ktn-semantic-color-primary-light: #FFE5E6;
   --ktn-semantic-color-primary-medium: #db0f16;
   --ktn-semantic-color-primary-dark: #a10001;
