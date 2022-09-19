@@ -3,6 +3,14 @@
   "dir": "",
   "menu": [
    [
+    "Guidelines",
+    [
+     "Patterns",
+     "Forms",
+     "patterns"
+    ]
+   ],
+   [
     "TOKENS",
     [
      "color",
