@@ -44,7 +44,7 @@ export const base = () =>
 
 ```js preview-story
 export const disabled = () =>
-  html`<ktn-input value="test" disabled></ktn-input>`;
+  html`<ktn-input label="Name" value="test" disabled></ktn-input>`;
 ```
 
 ## Invalid input

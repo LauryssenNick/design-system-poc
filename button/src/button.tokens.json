@@ -1,6 +1,6 @@
 {
   "button": {
-    "tokenset": "global",
+    "tokenset": "set-button",
     "padding": {
       "horizontal": {
         "type": "spacing",
@@ -138,11 +138,17 @@
       },
       "size": {
         "type": "fontSizes",
-        "value": "{core.font.size.6}"
+        "value": "{core.font.size.7}"
       },
       "weight": {
         "type": "fontWeights",
         "value": "{core.font.weight.medium}"
+      }
+    },
+    "line": {
+      "height": {
+        "type": "lineHeight",
+        "value": "{core.line.height.text}"
       }
     },
     "border": {

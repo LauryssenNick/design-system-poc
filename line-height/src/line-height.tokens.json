@@ -1,0 +1,13 @@
+{
+  "core": {
+    "tokenset": "global",
+    "line": {
+      "height": {
+        "text": {
+          "type": "lineHeight",
+          "value": "1.75"
+        }
+      }
+    }
+  }
+}

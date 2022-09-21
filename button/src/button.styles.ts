@@ -24,7 +24,9 @@ export default css`
     font-family: var(--ktn-button-font-family);
     font-size: var(--ktn-button-font-size);
     font-weight: var(--ktn-button-font-weight);
-    line-height: 16px;
+    line-height: var(--ktn-button-line-height);
+    text-transform: uppercase;
+    letter-spacing: 0.02857em;
   }
 
   .button:hover {

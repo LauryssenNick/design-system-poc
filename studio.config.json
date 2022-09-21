@@ -9,7 +9,10 @@
      "spacing",
      "typography",
      "tokens",
-     "border-radius"
+     "border-radius",
+     "line-height",
+     "opacity",
+     "duration"
     ]
    ],
    [

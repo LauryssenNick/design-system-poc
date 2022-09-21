@@ -1,0 +1,19 @@
+{
+  "core": {
+    "tokenset": "global",
+    "opacity": {
+      "disabled": {
+        "type": "opacity",
+        "value": "0.5"
+      },
+      "hover": {
+        "type": "opacity",
+        "value": "0.09"
+      },
+      "default": {
+        "type": "opacity",
+        "value": "0.06"
+      }
+    }
+  }
+}

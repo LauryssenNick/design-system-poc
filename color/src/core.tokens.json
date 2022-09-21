@@ -1,6 +1,6 @@
 {
   "core": {
-    "tokenset": "global",
+    "tokenset": "set-core",
     "color": {
       "gray": {
         "light": {

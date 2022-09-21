@@ -15,7 +15,7 @@ export default class Input extends LitElement {
   @property({ type: Boolean, reflect: true }) disabled = false;
   @property({ attribute: 'help-text' }) helpText = '';
   @property({ type: Boolean, reflect: true }) error = false;
-  @property() label = '';
+  @property({ type: String, reflect: true }) label = '';
   @property() name: string;
   @property({ type: Boolean, reflect: true }) required = false;
   @property() value = '';
@@ -47,9 +47,9 @@ export default class Input extends LitElement {
     return html`
       <div
         class=${classMap({
-          'input-root': true,
-          'input-root--has-label': this.label != '',
-          'input-root--has-help-text': this.helpText != '',
+          'input-container': true,
+          'input-container--has-label': this.label != '',
+          'input-container--has-help-text': this.helpText != '',
         })}
       >
         <label part="label" class="input-label" for="input">
@@ -69,8 +69,8 @@ export default class Input extends LitElement {
           @invalid=${this.handleError}
           name=${ifDefined(this.name)}
         />
-        <div part="help-text" class="input-help-text">${this.helpText}</div>
       </div>
+      <div part="help-text" class="input-help-text">${this.helpText}</div>
     `;
   }
 }
