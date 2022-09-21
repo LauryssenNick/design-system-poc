@@ -20,7 +20,7 @@ export default css`
     display: block;
     color: var(--ktn-input-help-text-color);
     font-size: var(--ktn-core-font-size-7);
-    margin: var(--ktn-core-spacing-1) var(--ktn-core-spacing-3) 0;
+    margin: var(--ktn-core-spacing-1) var(--ktn-core-spacing-4) 0;
   }
 
   :host([disabled]) .input {
@@ -38,6 +38,7 @@ export default css`
 
   :host([error]) .input {
     border-color: var(--ktn-core-color-status-error);
+    border-width: 2px;
   }
 
   :host([error])::part(help-text),
