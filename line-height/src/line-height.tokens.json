@@ -1,5 +1,5 @@
 {
-  "line-height": {
+  "core": {
     "tokenset": "set-core",
     "line": {
       "height": {

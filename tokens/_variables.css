@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 23 Sep 2022 07:41:51 GMT
+ * Generated on Fri, 23 Sep 2022 08:15:08 GMT
  */
 
 :root {
@@ -51,16 +51,16 @@
   --ktn-core-spacing-7: 1.5rem;
   --ktn-core-spacing-8: 1.75rem;
   --ktn-core-spacing-9: 2rem;
-  --ktn-core-font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  --ktn-core-font-weight-normal: 400;
-  --ktn-core-font-weight-medium: 500;
-  --ktn-core-font-size-1: 3.75rem;
-  --ktn-core-font-size-2: 3rem;
-  --ktn-core-font-size-3: 2.25rem;
-  --ktn-core-font-size-4: 1.5rem;
-  --ktn-core-font-size-5: 1.125rem;
-  --ktn-core-font-size-6: 0.938rem;
-  --ktn-core-font-size-7: 0.75rem;
+  --ktn-core-typography-font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --ktn-core-typography-font-weight-normal: 400;
+  --ktn-core-typography-font-weight-medium: 500;
+  --ktn-core-typography-font-size-1: 3.75rem;
+  --ktn-core-typography-font-size-2: 3rem;
+  --ktn-core-typography-font-size-3: 2.25rem;
+  --ktn-core-typography-font-size-4: 1.5rem;
+  --ktn-core-typography-font-size-5: 1.125rem;
+  --ktn-core-typography-font-size-6: 0.938rem;
+  --ktn-core-typography-font-size-7: 0.75rem;
   --ktn-button-padding-horizontal: 0.5rem;
   --ktn-button-padding-vertical: 0.25rem;
   --ktn-button-primary-background: #CC0000;
@@ -99,10 +99,10 @@
   --ktn-semantic-color-secondary-dark: #021212;
   --ktn-semantic-color-disabled-background: #eeeeee;
   --ktn-semantic-color-disabled-color: #9e9e9e;
-  --ktn-duration-duration-instantly: 0s;
-  --ktn-duration-duration-quickly: 0.1s;
-  --ktn-duration-duration-default: 0.2s;
-  --ktn-duration-duration-slowly: 0.4s;
+  --ktn-duration-instantly: 0s;
+  --ktn-duration-quickly: 0.1s;
+  --ktn-duration-default: 0.2s;
+  --ktn-duration-slowly: 0.4s;
   --ktn-input-background: rgba(0,0,0,0.06);
   --ktn-input-padding-horizontal: 1.25rem;
   --ktn-input-padding-vertical: 1.25rem;

@@ -32,11 +32,11 @@
     "font": {
       "weight": {
         "type": "fontWeights",
-        "value": "{core.font.weight.normal}"
+        "value": "{core.typography.font.weight.normal}"
       },
       "family": {
         "type": "fontFamilies",
-        "value": "{core.font.family}"
+        "value": "{core.typography.font.family}"
       }
     },
     "letter": {

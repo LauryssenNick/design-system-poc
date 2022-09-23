@@ -1,5 +1,5 @@
 {
-  "global": {
+  "set-core": {
     "core": {
       "border": {
         "radius": {
@@ -1027,415 +1027,317 @@
           ]
         }
       },
-      "font": {
-        "family": {
-          "type": "fontFamilies",
-          "value": "'Roboto', 'Helvetica', 'Arial', sans-serif",
-          "filePath": "typography/src/typography.tokens.json",
-          "isSource": true,
-          "original": {
+      "typography": {
+        "font": {
+          "family": {
             "type": "fontFamilies",
-            "value": "'Roboto', 'Helvetica', 'Arial', sans-serif"
-          },
-          "attributes": {
-            "category": "core",
-            "type": "font",
-            "item": "family"
-          },
-          "path": [
-            "core",
-            "font",
-            "family"
-          ]
-        },
-        "weight": {
-          "normal": {
-            "type": "fontWeights",
-            "value": 400,
+            "value": "'Roboto', 'Helvetica', 'Arial', sans-serif",
             "filePath": "typography/src/typography.tokens.json",
             "isSource": true,
             "original": {
+              "type": "fontFamilies",
+              "value": "'Roboto', 'Helvetica', 'Arial', sans-serif"
+            },
+            "attributes": {
+              "category": "core",
+              "type": "typography",
+              "item": "font",
+              "subitem": "family"
+            },
+            "path": [
+              "core",
+              "typography",
+              "font",
+              "family"
+            ]
+          },
+          "weight": {
+            "normal": {
               "type": "fontWeights",
-              "value": 400
+              "value": 400,
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontWeights",
+                "value": 400
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "weight",
+                "state": "normal"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "weight",
+                "normal"
+              ]
             },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "weight",
-              "subitem": "normal"
-            },
-            "path": [
-              "core",
-              "font",
-              "weight",
-              "normal"
-            ]
-          },
-          "medium": {
-            "type": "fontWeights",
-            "value": 500,
-            "filePath": "typography/src/typography.tokens.json",
-            "isSource": true,
-            "original": {
+            "medium": {
               "type": "fontWeights",
-              "value": 500
-            },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "weight",
-              "subitem": "medium"
-            },
-            "path": [
-              "core",
-              "font",
-              "weight",
-              "medium"
-            ]
-          }
-        },
-        "size": {
-          "1": {
-            "type": "fontSizes",
-            "value": "3.75rem",
-            "filePath": "typography/src/typography.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "fontSizes",
-              "value": "3.75rem"
-            },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "size",
-              "subitem": "1"
-            },
-            "path": [
-              "core",
-              "font",
-              "size",
-              "1"
-            ]
+              "value": 500,
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontWeights",
+                "value": 500
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "weight",
+                "state": "medium"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "weight",
+                "medium"
+              ]
+            }
           },
-          "2": {
-            "type": "fontSizes",
-            "value": "3rem",
-            "filePath": "typography/src/typography.tokens.json",
-            "isSource": true,
-            "original": {
+          "size": {
+            "1": {
               "type": "fontSizes",
-              "value": "3rem"
+              "value": "3.75rem",
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "3.75rem"
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "size",
+                "state": "1"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "size",
+                "1"
+              ]
             },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "size",
-              "subitem": "2"
-            },
-            "path": [
-              "core",
-              "font",
-              "size",
-              "2"
-            ]
-          },
-          "3": {
-            "type": "fontSizes",
-            "value": "2.25rem",
-            "filePath": "typography/src/typography.tokens.json",
-            "isSource": true,
-            "original": {
+            "2": {
               "type": "fontSizes",
-              "value": "2.25rem"
+              "value": "3rem",
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "3rem"
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "size",
+                "state": "2"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "size",
+                "2"
+              ]
             },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "size",
-              "subitem": "3"
-            },
-            "path": [
-              "core",
-              "font",
-              "size",
-              "3"
-            ]
-          },
-          "4": {
-            "type": "fontSizes",
-            "value": "1.5rem",
-            "filePath": "typography/src/typography.tokens.json",
-            "isSource": true,
-            "original": {
+            "3": {
               "type": "fontSizes",
-              "value": "1.5rem"
+              "value": "2.25rem",
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "2.25rem"
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "size",
+                "state": "3"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "size",
+                "3"
+              ]
             },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "size",
-              "subitem": "4"
-            },
-            "path": [
-              "core",
-              "font",
-              "size",
-              "4"
-            ]
-          },
-          "5": {
-            "type": "fontSizes",
-            "value": "1.125rem",
-            "filePath": "typography/src/typography.tokens.json",
-            "isSource": true,
-            "original": {
+            "4": {
               "type": "fontSizes",
-              "value": "1.125rem"
+              "value": "1.5rem",
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "1.5rem"
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "size",
+                "state": "4"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "size",
+                "4"
+              ]
             },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "size",
-              "subitem": "5"
-            },
-            "path": [
-              "core",
-              "font",
-              "size",
-              "5"
-            ]
-          },
-          "6": {
-            "type": "fontSizes",
-            "value": "0.938rem",
-            "filePath": "typography/src/typography.tokens.json",
-            "isSource": true,
-            "original": {
+            "5": {
               "type": "fontSizes",
-              "value": "0.938rem"
+              "value": "1.125rem",
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "1.125rem"
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "size",
+                "state": "5"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "size",
+                "5"
+              ]
             },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "size",
-              "subitem": "6"
-            },
-            "path": [
-              "core",
-              "font",
-              "size",
-              "6"
-            ]
-          },
-          "7": {
-            "type": "fontSizes",
-            "value": "0.75rem",
-            "filePath": "typography/src/typography.tokens.json",
-            "isSource": true,
-            "original": {
+            "6": {
               "type": "fontSizes",
-              "value": "0.75rem"
+              "value": "0.938rem",
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "0.938rem"
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "size",
+                "state": "6"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "size",
+                "6"
+              ]
             },
-            "attributes": {
-              "category": "core",
-              "type": "font",
-              "item": "size",
-              "subitem": "7"
-            },
-            "path": [
-              "core",
-              "font",
-              "size",
-              "7"
-            ]
+            "7": {
+              "type": "fontSizes",
+              "value": "0.75rem",
+              "filePath": "typography/src/typography.tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "fontSizes",
+                "value": "0.75rem"
+              },
+              "attributes": {
+                "category": "core",
+                "type": "typography",
+                "item": "font",
+                "subitem": "size",
+                "state": "7"
+              },
+              "path": [
+                "core",
+                "typography",
+                "font",
+                "size",
+                "7"
+              ]
+            }
           }
         }
       }
     },
-    "semantic": {
-      "color": {
-        "primary": {
-          "light": {
-            "type": "color",
-            "value": "{core.color.red.50}",
-            "filePath": "color/src/semantic.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{core.color.red.50}"
-            },
-            "attributes": {
-              "category": "semantic",
-              "type": "color",
-              "item": "primary",
-              "subitem": "light"
-            },
-            "path": [
-              "semantic",
-              "color",
-              "primary",
-              "light"
-            ]
-          },
-          "medium": {
-            "type": "color",
-            "value": "{core.color.red.600}",
-            "filePath": "color/src/semantic.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{core.color.red.600}"
-            },
-            "attributes": {
-              "category": "semantic",
-              "type": "color",
-              "item": "primary",
-              "subitem": "medium"
-            },
-            "path": [
-              "semantic",
-              "color",
-              "primary",
-              "medium"
-            ]
-          },
-          "dark": {
-            "type": "color",
-            "value": "{core.color.red.700}",
-            "filePath": "color/src/semantic.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{core.color.red.700}"
-            },
-            "attributes": {
-              "category": "semantic",
-              "type": "color",
-              "item": "primary",
-              "subitem": "dark"
-            },
-            "path": [
-              "semantic",
-              "color",
-              "primary",
-              "dark"
-            ]
-          }
+    "duration": {
+      "instantly": {
+        "value": "0s",
+        "filePath": "duration/src/duration.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0s"
         },
-        "secondary": {
-          "light": {
-            "type": "color",
-            "value": "{core.color.green.50}",
-            "filePath": "color/src/semantic.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{core.color.green.50}"
-            },
-            "attributes": {
-              "category": "semantic",
-              "type": "color",
-              "item": "secondary",
-              "subitem": "light"
-            },
-            "path": [
-              "semantic",
-              "color",
-              "secondary",
-              "light"
-            ]
-          },
-          "medium": {
-            "type": "color",
-            "value": "{core.color.green.700}",
-            "filePath": "color/src/semantic.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{core.color.green.700}"
-            },
-            "attributes": {
-              "category": "semantic",
-              "type": "color",
-              "item": "secondary",
-              "subitem": "medium"
-            },
-            "path": [
-              "semantic",
-              "color",
-              "secondary",
-              "medium"
-            ]
-          },
-          "dark": {
-            "type": "color",
-            "value": "{core.color.green.900}",
-            "filePath": "color/src/semantic.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{core.color.green.900}"
-            },
-            "attributes": {
-              "category": "semantic",
-              "type": "color",
-              "item": "secondary",
-              "subitem": "dark"
-            },
-            "path": [
-              "semantic",
-              "color",
-              "secondary",
-              "dark"
-            ]
-          }
+        "attributes": {
+          "category": "duration",
+          "type": "instantly"
         },
-        "disabled": {
-          "background": {
-            "type": "color",
-            "value": "{core.color.gray.light}",
-            "filePath": "color/src/semantic.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{core.color.gray.light}"
-            },
-            "attributes": {
-              "category": "semantic",
-              "type": "color",
-              "item": "disabled",
-              "subitem": "background"
-            },
-            "path": [
-              "semantic",
-              "color",
-              "disabled",
-              "background"
-            ]
-          },
-          "color": {
-            "type": "color",
-            "value": "{core.color.gray.medium}",
-            "filePath": "color/src/semantic.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{core.color.gray.medium}"
-            },
-            "attributes": {
-              "category": "semantic",
-              "type": "color",
-              "item": "disabled",
-              "subitem": "color"
-            },
-            "path": [
-              "semantic",
-              "color",
-              "disabled",
-              "color"
-            ]
-          }
-        }
+        "path": [
+          "duration",
+          "instantly"
+        ]
+      },
+      "quickly": {
+        "value": "0.1s",
+        "filePath": "duration/src/duration.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0.1s"
+        },
+        "attributes": {
+          "category": "duration",
+          "type": "quickly"
+        },
+        "path": [
+          "duration",
+          "quickly"
+        ]
+      },
+      "default": {
+        "value": "0.2s",
+        "filePath": "duration/src/duration.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0.2s"
+        },
+        "attributes": {
+          "category": "duration",
+          "type": "default"
+        },
+        "path": [
+          "duration",
+          "default"
+        ]
+      },
+      "slowly": {
+        "value": "0.4s",
+        "filePath": "duration/src/duration.tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0.4s"
+        },
+        "attributes": {
+          "category": "duration",
+          "type": "slowly"
+        },
+        "path": [
+          "duration",
+          "slowly"
+        ]
       }
     }
   },
@@ -2028,12 +1930,12 @@
       "font": {
         "family": {
           "type": "fontFamilies",
-          "value": "{core.font.family}",
+          "value": "{core.typography.font.family}",
           "filePath": "button/src/button.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontFamilies",
-            "value": "{core.font.family}"
+            "value": "{core.typography.font.family}"
           },
           "attributes": {
             "category": "button",
@@ -2048,12 +1950,12 @@
         },
         "size": {
           "type": "fontSizes",
-          "value": "{core.font.size.7}",
+          "value": "{core.typography.font.size.7}",
           "filePath": "button/src/button.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontSizes",
-            "value": "{core.font.size.7}"
+            "value": "{core.typography.font.size.7}"
           },
           "attributes": {
             "category": "button",
@@ -2068,12 +1970,12 @@
         },
         "weight": {
           "type": "fontWeights",
-          "value": "{core.font.weight.medium}",
+          "value": "{core.typography.font.weight.medium}",
           "filePath": "button/src/button.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontWeights",
-            "value": "{core.font.weight.medium}"
+            "value": "{core.typography.font.weight.medium}"
           },
           "attributes": {
             "category": "button",
@@ -2131,80 +2033,191 @@
       }
     }
   },
-  "set-core": {
-    "duration": {
-      "duration": {
-        "instantly": {
-          "value": "0s",
-          "filePath": "duration/src/duration.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "0s"
+  "global": {
+    "semantic": {
+      "color": {
+        "tokenset": "set-semantic",
+        "primary": {
+          "light": {
+            "type": "color",
+            "value": "{core.color.red.50}",
+            "filePath": "color/src/semantic.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{core.color.red.50}"
+            },
+            "attributes": {
+              "category": "semantic",
+              "type": "color",
+              "item": "primary",
+              "subitem": "light"
+            },
+            "path": [
+              "semantic",
+              "color",
+              "primary",
+              "light"
+            ]
           },
-          "attributes": {
-            "category": "duration",
-            "type": "duration",
-            "item": "instantly"
+          "medium": {
+            "type": "color",
+            "value": "{core.color.red.600}",
+            "filePath": "color/src/semantic.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{core.color.red.600}"
+            },
+            "attributes": {
+              "category": "semantic",
+              "type": "color",
+              "item": "primary",
+              "subitem": "medium"
+            },
+            "path": [
+              "semantic",
+              "color",
+              "primary",
+              "medium"
+            ]
           },
-          "path": [
-            "duration",
-            "duration",
-            "instantly"
-          ]
+          "dark": {
+            "type": "color",
+            "value": "{core.color.red.700}",
+            "filePath": "color/src/semantic.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{core.color.red.700}"
+            },
+            "attributes": {
+              "category": "semantic",
+              "type": "color",
+              "item": "primary",
+              "subitem": "dark"
+            },
+            "path": [
+              "semantic",
+              "color",
+              "primary",
+              "dark"
+            ]
+          }
         },
-        "quickly": {
-          "value": "0.1s",
-          "filePath": "duration/src/duration.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "0.1s"
+        "secondary": {
+          "light": {
+            "type": "color",
+            "value": "{core.color.green.50}",
+            "filePath": "color/src/semantic.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{core.color.green.50}"
+            },
+            "attributes": {
+              "category": "semantic",
+              "type": "color",
+              "item": "secondary",
+              "subitem": "light"
+            },
+            "path": [
+              "semantic",
+              "color",
+              "secondary",
+              "light"
+            ]
           },
-          "attributes": {
-            "category": "duration",
-            "type": "duration",
-            "item": "quickly"
+          "medium": {
+            "type": "color",
+            "value": "{core.color.green.700}",
+            "filePath": "color/src/semantic.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{core.color.green.700}"
+            },
+            "attributes": {
+              "category": "semantic",
+              "type": "color",
+              "item": "secondary",
+              "subitem": "medium"
+            },
+            "path": [
+              "semantic",
+              "color",
+              "secondary",
+              "medium"
+            ]
           },
-          "path": [
-            "duration",
-            "duration",
-            "quickly"
-          ]
+          "dark": {
+            "type": "color",
+            "value": "{core.color.green.900}",
+            "filePath": "color/src/semantic.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{core.color.green.900}"
+            },
+            "attributes": {
+              "category": "semantic",
+              "type": "color",
+              "item": "secondary",
+              "subitem": "dark"
+            },
+            "path": [
+              "semantic",
+              "color",
+              "secondary",
+              "dark"
+            ]
+          }
         },
-        "default": {
-          "value": "0.2s",
-          "filePath": "duration/src/duration.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "0.2s"
+        "disabled": {
+          "background": {
+            "type": "color",
+            "value": "{core.color.gray.light}",
+            "filePath": "color/src/semantic.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{core.color.gray.light}"
+            },
+            "attributes": {
+              "category": "semantic",
+              "type": "color",
+              "item": "disabled",
+              "subitem": "background"
+            },
+            "path": [
+              "semantic",
+              "color",
+              "disabled",
+              "background"
+            ]
           },
-          "attributes": {
-            "category": "duration",
-            "type": "duration",
-            "item": "default"
-          },
-          "path": [
-            "duration",
-            "duration",
-            "default"
-          ]
-        },
-        "slowly": {
-          "value": "0.4s",
-          "filePath": "duration/src/duration.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "0.4s"
-          },
-          "attributes": {
-            "category": "duration",
-            "type": "duration",
-            "item": "slowly"
-          },
-          "path": [
-            "duration",
-            "duration",
-            "slowly"
-          ]
+          "color": {
+            "type": "color",
+            "value": "{core.color.gray.medium}",
+            "filePath": "color/src/semantic.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{core.color.gray.medium}"
+            },
+            "attributes": {
+              "category": "semantic",
+              "type": "color",
+              "item": "disabled",
+              "subitem": "color"
+            },
+            "path": [
+              "semantic",
+              "color",
+              "disabled",
+              "color"
+            ]
+          }
         }
       }
     }
@@ -2336,12 +2349,12 @@
       "font": {
         "weight": {
           "type": "fontWeights",
-          "value": "{core.font.weight.normal}",
+          "value": "{core.typography.font.weight.normal}",
           "filePath": "input/src/input.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontWeights",
-            "value": "{core.font.weight.normal}"
+            "value": "{core.typography.font.weight.normal}"
           },
           "attributes": {
             "category": "input",
@@ -2356,12 +2369,12 @@
         },
         "family": {
           "type": "fontFamilies",
-          "value": "{core.font.family}",
+          "value": "{core.typography.font.family}",
           "filePath": "input/src/input.tokens.json",
           "isSource": true,
           "original": {
             "type": "fontFamilies",
-            "value": "{core.font.family}"
+            "value": "{core.typography.font.family}"
           },
           "attributes": {
             "category": "input",

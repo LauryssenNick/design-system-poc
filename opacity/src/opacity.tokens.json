@@ -1,5 +1,5 @@
 {
-  "opacity": {
+  "core": {
     "tokenset": "set-core",
     "opacity": {
       "disabled": {

@@ -1,5 +1,5 @@
 {
-  "border-radius": {
+  "core": {
     "tokenset": "set-core",
     "border": {
       "radius": {
