@@ -737,6 +737,80 @@
           }
         }
       },
+      "duration": {
+        "instantly": {
+          "value": "0s",
+          "filePath": "duration/src/duration.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0s"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "duration",
+            "item": "instantly"
+          },
+          "path": [
+            "core",
+            "duration",
+            "instantly"
+          ]
+        },
+        "quickly": {
+          "value": "0.1s",
+          "filePath": "duration/src/duration.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.1s"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "duration",
+            "item": "quickly"
+          },
+          "path": [
+            "core",
+            "duration",
+            "quickly"
+          ]
+        },
+        "default": {
+          "value": "0.2s",
+          "filePath": "duration/src/duration.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.2s"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "duration",
+            "item": "default"
+          },
+          "path": [
+            "core",
+            "duration",
+            "default"
+          ]
+        },
+        "slowly": {
+          "value": "0.4s",
+          "filePath": "duration/src/duration.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.4s"
+          },
+          "attributes": {
+            "category": "core",
+            "type": "duration",
+            "item": "slowly"
+          },
+          "path": [
+            "core",
+            "duration",
+            "slowly"
+          ]
+        }
+      },
       "line": {
         "height": {
           "text": {
@@ -1272,72 +1346,6 @@
             }
           }
         }
-      }
-    },
-    "duration": {
-      "instantly": {
-        "value": "0s",
-        "filePath": "duration/src/duration.tokens.json",
-        "isSource": true,
-        "original": {
-          "value": "0s"
-        },
-        "attributes": {
-          "category": "duration",
-          "type": "instantly"
-        },
-        "path": [
-          "duration",
-          "instantly"
-        ]
-      },
-      "quickly": {
-        "value": "0.1s",
-        "filePath": "duration/src/duration.tokens.json",
-        "isSource": true,
-        "original": {
-          "value": "0.1s"
-        },
-        "attributes": {
-          "category": "duration",
-          "type": "quickly"
-        },
-        "path": [
-          "duration",
-          "quickly"
-        ]
-      },
-      "default": {
-        "value": "0.2s",
-        "filePath": "duration/src/duration.tokens.json",
-        "isSource": true,
-        "original": {
-          "value": "0.2s"
-        },
-        "attributes": {
-          "category": "duration",
-          "type": "default"
-        },
-        "path": [
-          "duration",
-          "default"
-        ]
-      },
-      "slowly": {
-        "value": "0.4s",
-        "filePath": "duration/src/duration.tokens.json",
-        "isSource": true,
-        "original": {
-          "value": "0.4s"
-        },
-        "attributes": {
-          "category": "duration",
-          "type": "slowly"
-        },
-        "path": [
-          "duration",
-          "slowly"
-        ]
       }
     }
   },
@@ -2033,10 +2041,9 @@
       }
     }
   },
-  "global": {
+  "set-semantic": {
     "semantic": {
       "color": {
-        "tokenset": "set-semantic",
         "primary": {
           "light": {
             "type": "color",

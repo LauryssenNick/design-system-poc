@@ -1,17 +1,19 @@
 {
-  "duration": {
+  "core": {
     "tokenset": "set-core",
-    "instantly": {
-      "value": "0s"
-    },
-    "quickly": {
-      "value": "0.1s"
-    },
-    "default": {
-      "value": "0.2s"
-    },
-    "slowly": {
-      "value": "0.4s"
+    "duration": {
+      "instantly": {
+        "value": "0s"
+      },
+      "quickly": {
+        "value": "0.1s"
+      },
+      "default": {
+        "value": "0.2s"
+      },
+      "slowly": {
+        "value": "0.4s"
+      }
     }
   }
 }

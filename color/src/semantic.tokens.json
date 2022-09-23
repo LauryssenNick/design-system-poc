@@ -1,7 +1,7 @@
 {
   "semantic": {
+    "tokenset": "set-semantic",
     "color": {
-      "tokenset": "set-semantic",
       "primary": {
         "light": {
           "type": "color",
