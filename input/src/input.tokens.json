@@ -1,6 +1,6 @@
 {
   "input": {
-    "tokenset": "global",
+    "tokenset": "set-input",
     "background": {
       "type": "color",
       "value": "rgba(0,0,0,{core.opacity.default})"

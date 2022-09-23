@@ -1,6 +1,6 @@
 {
-  "core": {
-    "tokenset": "global",
+  "line-height": {
+    "tokenset": "set-core",
     "line": {
       "height": {
         "text": {

@@ -737,80 +737,6 @@
           }
         }
       },
-      "duration": {
-        "instantly": {
-          "value": "0s",
-          "filePath": "duration/src/duration.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "0s"
-          },
-          "attributes": {
-            "category": "core",
-            "type": "duration",
-            "item": "instantly"
-          },
-          "path": [
-            "core",
-            "duration",
-            "instantly"
-          ]
-        },
-        "quickly": {
-          "value": "0.1s",
-          "filePath": "duration/src/duration.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "0.1s"
-          },
-          "attributes": {
-            "category": "core",
-            "type": "duration",
-            "item": "quickly"
-          },
-          "path": [
-            "core",
-            "duration",
-            "quickly"
-          ]
-        },
-        "default": {
-          "value": "0.2s",
-          "filePath": "duration/src/duration.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "0.2s"
-          },
-          "attributes": {
-            "category": "core",
-            "type": "duration",
-            "item": "default"
-          },
-          "path": [
-            "core",
-            "duration",
-            "default"
-          ]
-        },
-        "slowly": {
-          "value": "0.4s",
-          "filePath": "duration/src/duration.tokens.json",
-          "isSource": true,
-          "original": {
-            "value": "0.4s"
-          },
-          "attributes": {
-            "category": "core",
-            "type": "duration",
-            "item": "slowly"
-          },
-          "path": [
-            "core",
-            "duration",
-            "slowly"
-          ]
-        }
-      },
       "line": {
         "height": {
           "text": {
@@ -1511,328 +1437,6 @@
           }
         }
       }
-    },
-    "input": {
-      "background": {
-        "type": "color",
-        "value": "rgba(0,0,0,0.06)",
-        "filePath": "input/src/input.tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "rgba(0,0,0,{core.opacity.default})"
-        },
-        "attributes": {
-          "category": "input",
-          "type": "background"
-        },
-        "path": [
-          "input",
-          "background"
-        ]
-      },
-      "padding": {
-        "horizontal": {
-          "type": "spacing",
-          "value": "{core.spacing.6}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "spacing",
-            "value": "{core.spacing.6}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "padding",
-            "item": "horizontal"
-          },
-          "path": [
-            "input",
-            "padding",
-            "horizontal"
-          ]
-        },
-        "vertical": {
-          "type": "spacing",
-          "value": "{core.spacing.6}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "spacing",
-            "value": "{core.spacing.6}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "padding",
-            "item": "vertical"
-          },
-          "path": [
-            "input",
-            "padding",
-            "vertical"
-          ]
-        }
-      },
-      "border": {
-        "radius": {
-          "type": "borderRadius",
-          "value": "0.25rem",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "borderRadius",
-            "value": "0.25rem"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "border",
-            "item": "radius"
-          },
-          "path": [
-            "input",
-            "border",
-            "radius"
-          ]
-        },
-        "color": {
-          "type": "color",
-          "value": "{core.color.black}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.black}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "border",
-            "item": "color"
-          },
-          "path": [
-            "input",
-            "border",
-            "color"
-          ]
-        },
-        "width": {
-          "type": "sizing",
-          "value": "1px",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "sizing",
-            "value": "1px"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "border",
-            "item": "width"
-          },
-          "path": [
-            "input",
-            "border",
-            "width"
-          ]
-        }
-      },
-      "font": {
-        "weight": {
-          "type": "fontWeights",
-          "value": "{core.font.weight.normal}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "fontWeights",
-            "value": "{core.font.weight.normal}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "font",
-            "item": "weight"
-          },
-          "path": [
-            "input",
-            "font",
-            "weight"
-          ]
-        },
-        "family": {
-          "type": "fontFamilies",
-          "value": "{core.font.family}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "fontFamilies",
-            "value": "{core.font.family}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "font",
-            "item": "family"
-          },
-          "path": [
-            "input",
-            "font",
-            "family"
-          ]
-        }
-      },
-      "letter": {
-        "spacing": {
-          "type": "letterSpacings",
-          "value": "0.01rem",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "letterSpacings",
-            "value": "0.01rem"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "letter",
-            "item": "spacing"
-          },
-          "path": [
-            "input",
-            "letter",
-            "spacing"
-          ]
-        }
-      },
-      "disabled": {
-        "background": {
-          "type": "color",
-          "value": "{semantic.color.disabled.background}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{semantic.color.disabled.background}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "disabled",
-            "item": "background"
-          },
-          "path": [
-            "input",
-            "disabled",
-            "background"
-          ]
-        },
-        "color": {
-          "type": "color",
-          "value": "{semantic.color.disabled.color}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{semantic.color.disabled.color}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "disabled",
-            "item": "color"
-          },
-          "path": [
-            "input",
-            "disabled",
-            "color"
-          ]
-        }
-      },
-      "focus": {
-        "border": {
-          "color": {
-            "type": "color",
-            "value": "{semantic.color.primary.dark}",
-            "filePath": "input/src/input.tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{semantic.color.primary.dark}"
-            },
-            "attributes": {
-              "category": "input",
-              "type": "focus",
-              "item": "border",
-              "subitem": "color"
-            },
-            "path": [
-              "input",
-              "focus",
-              "border",
-              "color"
-            ]
-          }
-        }
-      },
-      "hover": {
-        "color": {
-          "type": "color",
-          "value": "rgba(0,0,0, 0.09)",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "rgba(0,0,0, {core.opacity.hover})"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "hover",
-            "item": "color"
-          },
-          "path": [
-            "input",
-            "hover",
-            "color"
-          ]
-        }
-      },
-      "help-text": {
-        "color": {
-          "type": "color",
-          "value": "{core.color.gray.dark}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.gray.dark}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "help-text",
-            "item": "color"
-          },
-          "path": [
-            "input",
-            "help-text",
-            "color"
-          ]
-        }
-      },
-      "label": {
-        "color": {
-          "type": "color",
-          "value": "{core.color.gray.dark}",
-          "filePath": "input/src/input.tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "{core.color.gray.dark}"
-          },
-          "attributes": {
-            "category": "input",
-            "type": "label",
-            "item": "color"
-          },
-          "path": [
-            "input",
-            "label",
-            "color"
-          ]
-        }
-      }
     }
   },
   "set-button": {
@@ -2522,6 +2126,408 @@
             "button",
             "border",
             "radius"
+          ]
+        }
+      }
+    }
+  },
+  "set-core": {
+    "duration": {
+      "duration": {
+        "instantly": {
+          "value": "0s",
+          "filePath": "duration/src/duration.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0s"
+          },
+          "attributes": {
+            "category": "duration",
+            "type": "duration",
+            "item": "instantly"
+          },
+          "path": [
+            "duration",
+            "duration",
+            "instantly"
+          ]
+        },
+        "quickly": {
+          "value": "0.1s",
+          "filePath": "duration/src/duration.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.1s"
+          },
+          "attributes": {
+            "category": "duration",
+            "type": "duration",
+            "item": "quickly"
+          },
+          "path": [
+            "duration",
+            "duration",
+            "quickly"
+          ]
+        },
+        "default": {
+          "value": "0.2s",
+          "filePath": "duration/src/duration.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.2s"
+          },
+          "attributes": {
+            "category": "duration",
+            "type": "duration",
+            "item": "default"
+          },
+          "path": [
+            "duration",
+            "duration",
+            "default"
+          ]
+        },
+        "slowly": {
+          "value": "0.4s",
+          "filePath": "duration/src/duration.tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "0.4s"
+          },
+          "attributes": {
+            "category": "duration",
+            "type": "duration",
+            "item": "slowly"
+          },
+          "path": [
+            "duration",
+            "duration",
+            "slowly"
+          ]
+        }
+      }
+    }
+  },
+  "set-input": {
+    "input": {
+      "background": {
+        "type": "color",
+        "value": "rgba(0,0,0,0.06)",
+        "filePath": "input/src/input.tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "rgba(0,0,0,{core.opacity.default})"
+        },
+        "attributes": {
+          "category": "input",
+          "type": "background"
+        },
+        "path": [
+          "input",
+          "background"
+        ]
+      },
+      "padding": {
+        "horizontal": {
+          "type": "spacing",
+          "value": "{core.spacing.6}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "spacing",
+            "value": "{core.spacing.6}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "padding",
+            "item": "horizontal"
+          },
+          "path": [
+            "input",
+            "padding",
+            "horizontal"
+          ]
+        },
+        "vertical": {
+          "type": "spacing",
+          "value": "{core.spacing.6}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "spacing",
+            "value": "{core.spacing.6}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "padding",
+            "item": "vertical"
+          },
+          "path": [
+            "input",
+            "padding",
+            "vertical"
+          ]
+        }
+      },
+      "border": {
+        "radius": {
+          "type": "borderRadius",
+          "value": "0.25rem",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "borderRadius",
+            "value": "0.25rem"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "border",
+            "item": "radius"
+          },
+          "path": [
+            "input",
+            "border",
+            "radius"
+          ]
+        },
+        "color": {
+          "type": "color",
+          "value": "{core.color.black}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.black}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "border",
+            "item": "color"
+          },
+          "path": [
+            "input",
+            "border",
+            "color"
+          ]
+        },
+        "width": {
+          "type": "sizing",
+          "value": "1px",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "sizing",
+            "value": "1px"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "border",
+            "item": "width"
+          },
+          "path": [
+            "input",
+            "border",
+            "width"
+          ]
+        }
+      },
+      "font": {
+        "weight": {
+          "type": "fontWeights",
+          "value": "{core.font.weight.normal}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontWeights",
+            "value": "{core.font.weight.normal}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "font",
+            "item": "weight"
+          },
+          "path": [
+            "input",
+            "font",
+            "weight"
+          ]
+        },
+        "family": {
+          "type": "fontFamilies",
+          "value": "{core.font.family}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "fontFamilies",
+            "value": "{core.font.family}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "font",
+            "item": "family"
+          },
+          "path": [
+            "input",
+            "font",
+            "family"
+          ]
+        }
+      },
+      "letter": {
+        "spacing": {
+          "type": "letterSpacings",
+          "value": "0.01rem",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "letterSpacings",
+            "value": "0.01rem"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "letter",
+            "item": "spacing"
+          },
+          "path": [
+            "input",
+            "letter",
+            "spacing"
+          ]
+        }
+      },
+      "disabled": {
+        "background": {
+          "type": "color",
+          "value": "{semantic.color.disabled.background}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{semantic.color.disabled.background}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "disabled",
+            "item": "background"
+          },
+          "path": [
+            "input",
+            "disabled",
+            "background"
+          ]
+        },
+        "color": {
+          "type": "color",
+          "value": "{semantic.color.disabled.color}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{semantic.color.disabled.color}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "disabled",
+            "item": "color"
+          },
+          "path": [
+            "input",
+            "disabled",
+            "color"
+          ]
+        }
+      },
+      "focus": {
+        "border": {
+          "color": {
+            "type": "color",
+            "value": "{semantic.color.primary.dark}",
+            "filePath": "input/src/input.tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{semantic.color.primary.dark}"
+            },
+            "attributes": {
+              "category": "input",
+              "type": "focus",
+              "item": "border",
+              "subitem": "color"
+            },
+            "path": [
+              "input",
+              "focus",
+              "border",
+              "color"
+            ]
+          }
+        }
+      },
+      "hover": {
+        "color": {
+          "type": "color",
+          "value": "rgba(0,0,0, 0.09)",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "rgba(0,0,0, {core.opacity.hover})"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "hover",
+            "item": "color"
+          },
+          "path": [
+            "input",
+            "hover",
+            "color"
+          ]
+        }
+      },
+      "help-text": {
+        "color": {
+          "type": "color",
+          "value": "{core.color.gray.dark}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.gray.dark}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "help-text",
+            "item": "color"
+          },
+          "path": [
+            "input",
+            "help-text",
+            "color"
+          ]
+        }
+      },
+      "label": {
+        "color": {
+          "type": "color",
+          "value": "{core.color.gray.dark}",
+          "filePath": "input/src/input.tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{core.color.gray.dark}"
+          },
+          "attributes": {
+            "category": "input",
+            "type": "label",
+            "item": "color"
+          },
+          "path": [
+            "input",
+            "label",
+            "color"
           ]
         }
       }

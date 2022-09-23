@@ -1,6 +1,6 @@
 {
-  "core": {
-    "tokenset": "global",
+  "border-radius": {
+    "tokenset": "set-core",
     "border": {
       "radius": {
         "none": {

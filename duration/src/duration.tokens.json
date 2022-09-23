@@ -1,6 +1,6 @@
 {
-  "core": {
-    "tokenset": "global",
+  "duration": {
+    "tokenset": "set-core",
     "duration": {
       "instantly": {
         "value": "0s"

@@ -1,6 +1,6 @@
 {
-  "core": {
-    "tokenset": "global",
+  "typography": {
+    "tokenset": "set-core",
     "font": {
       "family": {
         "type": "fontFamilies",
