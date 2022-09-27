@@ -1,5 +1,16 @@
 {
   "button": {
+    "tokenset": "set-button",
+    "padding": {
+      "horizontal": {
+        "type": "spacing",
+        "value": "{core.spacing.3}"
+      },
+      "vertical": {
+        "type": "spacing",
+        "value": "{core.spacing.2}"
+      }
+    },
     "primary": {
       "background": {
         "type": "color",
@@ -8,16 +19,6 @@
       "color": {
         "type": "color",
         "value": "{core.color.white}"
-      },
-      "padding": {
-        "horizontal": {
-          "type": "spacing",
-          "value": "1rem"
-        },
-        "vertical": {
-          "type": "spacing",
-          "value": "0.75rem"
-        }
       },
       "border": {
         "radius": {
@@ -133,7 +134,21 @@
     "font": {
       "family": {
         "type": "fontFamilies",
-        "value": "{core.font.family}"
+        "value": "{core.typography.font.family}"
+      },
+      "size": {
+        "type": "fontSizes",
+        "value": "{core.typography.font.size.7}"
+      },
+      "weight": {
+        "type": "fontWeights",
+        "value": "{core.typography.font.weight.medium}"
+      }
+    },
+    "line": {
+      "height": {
+        "type": "lineHeight",
+        "value": "{core.line.height.text}"
       }
     },
     "border": {

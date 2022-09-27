@@ -1,17 +1,18 @@
 {
   "input": {
+    "tokenset": "set-input",
     "background": {
       "type": "color",
-      "value": "{core.color.white}"
+      "value": "rgba(0,0,0,{core.opacity.default})"
     },
     "padding": {
       "horizontal": {
         "type": "spacing",
-        "value": "0.4rem"
+        "value": "{core.spacing.6}"
       },
       "vertical": {
         "type": "spacing",
-        "value": "0.4rem"
+        "value": "{core.spacing.6}"
       }
     },
     "border": {
@@ -31,11 +32,11 @@
     "font": {
       "weight": {
         "type": "fontWeights",
-        "value": "{core.font.weight.normal}"
+        "value": "{core.typography.font.weight.normal}"
       },
       "family": {
         "type": "fontFamilies",
-        "value": "{core.font.family}"
+        "value": "{core.typography.font.family}"
       }
     },
     "letter": {
@@ -54,10 +55,30 @@
         "value": "{semantic.color.disabled.color}"
       }
     },
+    "focus": {
+      "border": {
+        "color": {
+          "type": "color",
+          "value": "{semantic.color.primary.dark}"
+        }
+      }
+    },
+    "hover": {
+      "color": {
+        "type": "color",
+        "value": "rgba(0,0,0, {core.opacity.hover})"
+      }
+    },
     "help-text": {
       "color": {
         "type": "color",
-        "value": "{color.gray.medium}"
+        "value": "{core.color.gray.dark}"
+      }
+    },
+    "label": {
+      "color": {
+        "type": "color",
+        "value": "{core.color.gray.dark}"
       }
     }
   }

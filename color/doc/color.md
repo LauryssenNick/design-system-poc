@@ -58,3 +58,13 @@ import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
   style-key="background-color"
 ></dockit-css-showcases>
 ```
+
+### Status
+
+```html preview-story
+<dockit-css-showcases
+  css-props-prefix="--ktn-core-color-status"
+  component-class="box"
+  style-key="background-color"
+></dockit-css-showcases>
+```

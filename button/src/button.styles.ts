@@ -19,8 +19,14 @@ export default css`
     white-space: nowrap;
     vertical-align: middle;
     border-radius: var(--ktn-button-border-radius);
-    padding: var(--ktn-core-spacing-1) var(--ktn-core-spacing-2);
+    padding: var(--ktn-button-padding-vertical)
+      var(--ktn-button-padding-horizontal);
     font-family: var(--ktn-button-font-family);
+    font-size: var(--ktn-button-font-size);
+    font-weight: var(--ktn-button-font-weight);
+    line-height: var(--ktn-button-line-height);
+    text-transform: uppercase;
+    letter-spacing: 0.02857em;
   }
 
   .button:hover {

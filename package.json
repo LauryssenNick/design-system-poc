@@ -11,6 +11,6 @@
     "lit": "^2.2.0"
   },
   "devDependencies": {
-    "@divriots/dockit-core": "^0.7.2"
+    "@divriots/dockit-core": "^0.9.4"
   }
 }
