@@ -9,7 +9,7 @@ import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 
 ```html preview-story
 <dockit-css-showcases
-  css-props-prefix="--ktn-core-font-family"
+  css-props-prefix="--ktn-core-typography-font-family"
   component-type="text"
   style-key="font-family"
 ></dockit-css-showcases>
@@ -19,7 +19,7 @@ import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 
 ```html preview-story
 <dockit-css-showcases
-  css-props-prefix="--ktn-core-font-weight"
+  css-props-prefix="--ktn-core-typography-font-weight"
   component-type="text"
   style-key="font-weight"
 ></dockit-css-showcases>
@@ -29,7 +29,7 @@ import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 
 ```html preview-story
 <dockit-css-showcases
-  css-props-prefix="--ktn-core-font-size"
+  css-props-prefix="--ktn-core-typography-font-size"
   component-type="text"
   style-key="font-size"
 ></dockit-css-showcases>
