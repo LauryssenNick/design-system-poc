@@ -2,6 +2,7 @@
   "packages": {
     "dir": "",
     "menu": [
+      "Introduction",
       ["CONCEPTS", ["tokens"]],
       [
         "TOKENS",
